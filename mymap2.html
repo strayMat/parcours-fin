@@ -1,0 +1,3364 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS = false; L_NO_TOUCH = false; L_DISABLE_3D = false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <style> #map_30a94ac6e93246ccaf6d47afb097b5f7 {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_30a94ac6e93246ccaf6d47afb097b5f7" ></div>
+        
+</body>
+<script>    
+    
+
+            
+                var bounds = null;
+            
+
+            var map_30a94ac6e93246ccaf6d47afb097b5f7 = L.map(
+                                  'map_30a94ac6e93246ccaf6d47afb097b5f7',
+                                  {center: [48.588224,7.774069],
+                                  zoom: 13,
+                                  maxBounds: bounds,
+                                  layers: [],
+                                  worldCopyJump: false,
+                                  crs: L.CRS.EPSG3857
+                                 });
+            
+        
+    
+            var tile_layer_a913162499344d97b514c3718659897d = L.tileLayer(
+                'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+                {
+  "attribution": null,
+  "detectRetina": false,
+  "maxZoom": 18,
+  "minZoom": 1,
+  "noWrap": false,
+  "subdomains": "abc"
+}
+                ).addTo(map_30a94ac6e93246ccaf6d47afb097b5f7);
+        
+    
+            var circle_marker_acad55490c014b4a9cc14ddc38c92e4e = L.circleMarker(
+                [48.588224,7.774069],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#FFCE00",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#FFCE00",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_30a94ac6e93246ccaf6d47afb097b5f7);
+            
+    
+            var popup_873b91bbbd604f41a17f549f4dd96e80 = L.popup({maxWidth: '300'});
+
+            
+                var html_f102c6ff3d8b4571b392b3813b32b596 = $('<div id="html_f102c6ff3d8b4571b392b3813b32b596" style="width: 100.0%; height: 100.0%;"><center><strong>repres.perm.de la france aupres du cons </strong></center><br> <b>Ministere:</b> Affaires trangres et dveloppement international<br>             <b>Fonction:</b> Immeuble de bureaux</div>')[0];
+                popup_873b91bbbd604f41a17f549f4dd96e80.setContent(html_f102c6ff3d8b4571b392b3813b32b596);
+            
+
+            circle_marker_acad55490c014b4a9cc14ddc38c92e4e.bindPopup(popup_873b91bbbd604f41a17f549f4dd96e80);
+
+            
+        
+    
+            var circle_marker_2b782dddd6aa409b883a8bf45cf788b1 = L.circleMarker(
+                [48.564474,7.757484],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#007849",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#007849",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_30a94ac6e93246ccaf6d47afb097b5f7);
+            
+    
+            var popup_75e463a1c5954aacab379393aae3478e = L.popup({maxWidth: '300'});
+
+            
+                var html_fe55c6ea592d4932a762bbc962b262ff = $('<div id="html_fe55c6ea592d4932a762bbc962b262ff" style="width: 100.0%; height: 100.0%;"><center><strong>e.s.i strasbourg-neudorf </strong></center><br> <b>Ministere:</b> Economie et finances<br>             <b>Fonction:</b> Centre Informatique</div>')[0];
+                popup_75e463a1c5954aacab379393aae3478e.setContent(html_fe55c6ea592d4932a762bbc962b262ff);
+            
+
+            circle_marker_2b782dddd6aa409b883a8bf45cf788b1.bindPopup(popup_75e463a1c5954aacab379393aae3478e);
+
+            
+        
+    
+            var circle_marker_49ef3d66fd05427186d0e9bcf913d4c5 = L.circleMarker(
+                [48.589642,7.749546],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#007849",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#007849",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_30a94ac6e93246ccaf6d47afb097b5f7);
+            
+    
+            var popup_d4d9b81f956f48dda7e26812c6fa68d2 = L.popup({maxWidth: '300'});
+
+            
+                var html_901f63e5a6984056855b2936323a9024 = $('<div id="html_901f63e5a6984056855b2936323a9024" style="width: 100.0%; height: 100.0%;"><center><strong>annexe </strong></center><br> <b>Ministere:</b> Economie et finances<br>             <b>Fonction:</b> Htel des finances</div>')[0];
+                popup_d4d9b81f956f48dda7e26812c6fa68d2.setContent(html_901f63e5a6984056855b2936323a9024);
+            
+
+            circle_marker_49ef3d66fd05427186d0e9bcf913d4c5.bindPopup(popup_d4d9b81f956f48dda7e26812c6fa68d2);
+
+            
+        
+    
+            var circle_marker_1d58d853dba84a3e9bc085d440687925 = L.circleMarker(
+                [48.589165,7.752261999999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#007849",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#007849",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_30a94ac6e93246ccaf6d47afb097b5f7);
+            
+    
+            var popup_e63fdcad192c4a939cb9265b2bca141e = L.popup({maxWidth: '300'});
+
+            
+                var html_f98da0b40c5141dfa0ee9a8bb493b1c1 = $('<div id="html_f98da0b40c5141dfa0ee9a8bb493b1c1" style="width: 100.0%; height: 100.0%;"><center><strong>centre des finances publiques </strong></center><br> <b>Ministere:</b> Economie et finances<br>             <b>Fonction:</b> Htel des impts</div>')[0];
+                popup_e63fdcad192c4a939cb9265b2bca141e.setContent(html_f98da0b40c5141dfa0ee9a8bb493b1c1);
+            
+
+            circle_marker_1d58d853dba84a3e9bc085d440687925.bindPopup(popup_e63fdcad192c4a939cb9265b2bca141e);
+
+            
+        
+    
+            var circle_marker_c58fb63636574129b6b3cc80c639c8e2 = L.circleMarker(
+                [48.589642,7.749546],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#007849",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#007849",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_30a94ac6e93246ccaf6d47afb097b5f7);
+            
+    
+            var popup_6b1be0dd5cd544cf9a44ee93aaefe4c1 = L.popup({maxWidth: '300'});
+
+            
+                var html_e4552c52cc8b49c5934655ea60718f1a = $('<div id="html_e4552c52cc8b49c5934655ea60718f1a" style="width: 100.0%; height: 100.0%;"><center><strong>cfp strasbourg neudorf - batiment a </strong></center><br> <b>Ministere:</b> Economie et finances<br>             <b>Fonction:</b> Htel des impts</div>')[0];
+                popup_6b1be0dd5cd544cf9a44ee93aaefe4c1.setContent(html_e4552c52cc8b49c5934655ea60718f1a);
+            
+
+            circle_marker_c58fb63636574129b6b3cc80c639c8e2.bindPopup(popup_6b1be0dd5cd544cf9a44ee93aaefe4c1);
+
+            
+        
+    
+            var circle_marker_2734914499a646279a1d09d090122b62 = L.circleMarker(
+                [48.58642,7.757442],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#007849",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#007849",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_30a94ac6e93246ccaf6d47afb097b5f7);
+            
+    
+            var popup_c566e538798d43df83e34efd2f09cd5c = L.popup({maxWidth: '300'});
+
+            
+                var html_b312021e37d540b2bf553bd6b95b533e = $('<div id="html_b312021e37d540b2bf553bd6b95b533e" style="width: 100.0%; height: 100.0%;"><center><strong>direction des douanes </strong></center><br> <b>Ministere:</b> Economie et finances<br>             <b>Fonction:</b> Immeuble de bureaux</div>')[0];
+                popup_c566e538798d43df83e34efd2f09cd5c.setContent(html_b312021e37d540b2bf553bd6b95b533e);
+            
+
+            circle_marker_2734914499a646279a1d09d090122b62.bindPopup(popup_c566e538798d43df83e34efd2f09cd5c);
+
+            
+        
+    
+            var circle_marker_ecbe4b55f4fe4788986bc94d3a672680 = L.circleMarker(
+                [48.581712,7.7815699999999985],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#007849",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#007849",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_30a94ac6e93246ccaf6d47afb097b5f7);
+            
+    
+            var popup_9f385df77cc74d81bcef3b9abbad5620 = L.popup({maxWidth: '300'});
+
+            
+                var html_080ac3c66fb94588abf6c1641d796434 = $('<div id="html_080ac3c66fb94588abf6c1641d796434" style="width: 100.0%; height: 100.0%;"><center><strong>etablissement de services informatiques general picquart </strong></center><br> <b>Ministere:</b> Economie et finances<br>             <b>Fonction:</b> Immeuble de bureaux</div>')[0];
+                popup_9f385df77cc74d81bcef3b9abbad5620.setContent(html_080ac3c66fb94588abf6c1641d796434);
+            
+
+            circle_marker_ecbe4b55f4fe4788986bc94d3a672680.bindPopup(popup_9f385df77cc74d81bcef3b9abbad5620);
+
+            
+        
+    
+            var circle_marker_bfbab3966a5749efb42106c11130aec5 = L.circleMarker(
+                [48.588144,7.753863000000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#007849",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#007849",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_30a94ac6e93246ccaf6d47afb097b5f7);
+            
+    
+            var popup_621400cfcc1e4cdbb21741f3dca32bb0 = L.popup({maxWidth: '300'});
+
+            
+                var html_34988af29ace4eab981cee89f3d63620 = $('<div id="html_34988af29ace4eab981cee89f3d63620" style="width: 100.0%; height: 100.0%;"><center><strong>direction regionale des finances publiques d alsace </strong></center><br> <b>Ministere:</b> Economie et finances<br>             <b>Fonction:</b> Trsorerie</div>')[0];
+                popup_621400cfcc1e4cdbb21741f3dca32bb0.setContent(html_34988af29ace4eab981cee89f3d63620);
+            
+
+            circle_marker_bfbab3966a5749efb42106c11130aec5.bindPopup(popup_621400cfcc1e4cdbb21741f3dca32bb0);
+
+            
+        
+    
+            var circle_marker_5f12d5db51554cb3906bf4a0efd4b675 = L.circleMarker(
+                [48.588419,7.751964999999998],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_30a94ac6e93246ccaf6d47afb097b5f7);
+            
+    
+            var popup_9e73af69da0d402097af0c27471f8141 = L.popup({maxWidth: '300'});
+
+            
+                var html_bc094f5cea3a4511bb47b51991cafeef = $('<div id="html_bc094f5cea3a4511bb47b51991cafeef" style="width: 100.0%; height: 100.0%;"><center><strong>annexe du palais du rhin/locaux drac </strong></center><br> <b>Ministere:</b> Culture et communication<br>             <b>Fonction:</b> Garage</div>')[0];
+                popup_9e73af69da0d402097af0c27471f8141.setContent(html_bc094f5cea3a4511bb47b51991cafeef);
+            
+
+            circle_marker_5f12d5db51554cb3906bf4a0efd4b675.bindPopup(popup_9e73af69da0d402097af0c27471f8141);
+
+            
+        
+    
+            var circle_marker_20258e5cc92d4a3594142543bc515cef = L.circleMarker(
+                [48.587494,7.752793],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_30a94ac6e93246ccaf6d47afb097b5f7);
+            
+    
+            var popup_c1453866447b417b995047a2fbefb664 = L.popup({maxWidth: '300'});
+
+            
+                var html_2f51ee236799434c896f47633258f22a = $('<div id="html_2f51ee236799434c896f47633258f22a" style="width: 100.0%; height: 100.0%;"><center><strong>d.r.a.c alsace - s.d.a.p bas-rhin </strong></center><br> <b>Ministere:</b> Culture et communication<br>             <b>Fonction:</b> Immeuble de bureaux</div>')[0];
+                popup_c1453866447b417b995047a2fbefb664.setContent(html_2f51ee236799434c896f47633258f22a);
+            
+
+            circle_marker_20258e5cc92d4a3594142543bc515cef.bindPopup(popup_c1453866447b417b995047a2fbefb664);
+
+            
+        
+    
+            var circle_marker_2ebe0c9bf0a540fb8b62ebca1f91e63b = L.circleMarker(
+                [48.588419,7.751964999999998],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_30a94ac6e93246ccaf6d47afb097b5f7);
+            
+    
+            var popup_36fc3c0c88e64c29ba69e692987368c8 = L.popup({maxWidth: '300'});
+
+            
+                var html_326c0252529e470c837847de9ef6512a = $('<div id="html_326c0252529e470c837847de9ef6512a" style="width: 100.0%; height: 100.0%;"><center><strong>annexe du palais du rhin/locaux drac </strong></center><br> <b>Ministere:</b> Culture et communication<br>             <b>Fonction:</b> Immeuble de bureaux</div>')[0];
+                popup_36fc3c0c88e64c29ba69e692987368c8.setContent(html_326c0252529e470c837847de9ef6512a);
+            
+
+            circle_marker_2ebe0c9bf0a540fb8b62ebca1f91e63b.bindPopup(popup_36fc3c0c88e64c29ba69e692987368c8);
+
+            
+        
+    
+            var circle_marker_01b5fc718ca74046a8d04144d92ab2c2 = L.circleMarker(
+                [48.582099,7.750315],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_30a94ac6e93246ccaf6d47afb097b5f7);
+            
+    
+            var popup_d8edcea27ecd4e099406f05399322064 = L.popup({maxWidth: '300'});
+
+            
+                var html_028ccaf8870c48deb236b39ca20e5cc6 = $('<div id="html_028ccaf8870c48deb236b39ca20e5cc6" style="width: 100.0%; height: 100.0%;"><center><strong>cathedrale notre dame strasbourg </strong></center><br> <b>Ministere:</b> Culture et communication<br>             <b>Fonction:</b> Cathdrale</div>')[0];
+                popup_d8edcea27ecd4e099406f05399322064.setContent(html_028ccaf8870c48deb236b39ca20e5cc6);
+            
+
+            circle_marker_01b5fc718ca74046a8d04144d92ab2c2.bindPopup(popup_d8edcea27ecd4e099406f05399322064);
+
+            
+        
+    
+            var circle_marker_5a0e8fb3b98d49e4bad5b4e4b4bbcd0f = L.circleMarker(
+                [48.580471,7.776097],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#E37222",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#E37222",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_30a94ac6e93246ccaf6d47afb097b5f7);
+            
+    
+            var popup_fc620220e70e4111b663e73eca36c562 = L.popup({maxWidth: '300'});
+
+            
+                var html_561158ebe39248e3a17889447c4aa2cf = $('<div id="html_561158ebe39248e3a17889447c4aa2cf" style="width: 100.0%; height: 100.0%;"><center><strong>culture (tgi provisoire) </strong></center><br> <b>Ministere:</b> Culture et communication<br>             <b>Fonction:</b> Terrain en friche</div>')[0];
+                popup_fc620220e70e4111b663e73eca36c562.setContent(html_561158ebe39248e3a17889447c4aa2cf);
+            
+
+            circle_marker_5a0e8fb3b98d49e4bad5b4e4b4bbcd0f.bindPopup(popup_fc620220e70e4111b663e73eca36c562);
+
+            
+        
+    
+            var circle_marker_f64727c864544f5687d5a0f5384d5d20 = L.circleMarker(
+                [48.556213,7.78098],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#0375B4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#0375B4",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_30a94ac6e93246ccaf6d47afb097b5f7);
+            
+    
+            var popup_64f83d1f46d74882b01876c698d1ec04 = L.popup({maxWidth: '300'});
+
+            
+                var html_b098aef9e0aa446e8d200daa6aa1d0ed = $('<div id="html_b098aef9e0aa446e8d200daa6aa1d0ed" style="width: 100.0%; height: 100.0%;"><center><strong>centre exam. permis conduire du polygone </strong></center><br> <b>Ministere:</b> Environnement et mer<br>             <b>Fonction:</b> Bt. d'instruction/formation</div>')[0];
+                popup_64f83d1f46d74882b01876c698d1ec04.setContent(html_b098aef9e0aa446e8d200daa6aa1d0ed);
+            
+
+            circle_marker_f64727c864544f5687d5a0f5384d5d20.bindPopup(popup_64f83d1f46d74882b01876c698d1ec04);
+
+            
+        
+    
+            var circle_marker_9af670acae7d4a55bb81dbad018b1993 = L.circleMarker(
+                [48.588237,7.727369],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#0375B4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#0375B4",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_30a94ac6e93246ccaf6d47afb097b5f7);
+            
+    
+            var popup_9b39ff41fdbc4b508d16c2b672c43c11 = L.popup({maxWidth: '300'});
+
+            
+                var html_a960391316ff4bd6a1fce8bbeecc2c97 = $('<div id="html_a960391316ff4bd6a1fce8bbeecc2c97" style="width: 100.0%; height: 100.0%;"><center><strong>a35 n¡3 hangar </strong></center><br> <b>Ministere:</b> Environnement et mer<br>             <b>Fonction:</b> Btiment de stockage</div>')[0];
+                popup_9b39ff41fdbc4b508d16c2b672c43c11.setContent(html_a960391316ff4bd6a1fce8bbeecc2c97);
+            
+
+            circle_marker_9af670acae7d4a55bb81dbad018b1993.bindPopup(popup_9b39ff41fdbc4b508d16c2b672c43c11);
+
+            
+        
+    
+            var circle_marker_f81abfef19a74c589d47d6d384a1aad5 = L.circleMarker(
+                [48.588237,7.727369],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#0375B4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#0375B4",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_30a94ac6e93246ccaf6d47afb097b5f7);
+            
+    
+            var popup_748fb758f7ab420e9d60b0c938239377 = L.popup({maxWidth: '300'});
+
+            
+                var html_8b37ed5d2b9149fea00be652b4668daf = $('<div id="html_8b37ed5d2b9149fea00be652b4668daf" style="width: 100.0%; height: 100.0%;"><center><strong>a35 n ¡4 batiment de stockage abri a sel </strong></center><br> <b>Ministere:</b> Environnement et mer<br>             <b>Fonction:</b> Btiment de stockage</div>')[0];
+                popup_748fb758f7ab420e9d60b0c938239377.setContent(html_8b37ed5d2b9149fea00be652b4668daf);
+            
+
+            circle_marker_f81abfef19a74c589d47d6d384a1aad5.bindPopup(popup_748fb758f7ab420e9d60b0c938239377);
+
+            
+        
+    
+            var circle_marker_54c576fcf5cf4ffe9af8d9cb81a67631 = L.circleMarker(
+                [48.589075,7.727319],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#0375B4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#0375B4",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_30a94ac6e93246ccaf6d47afb097b5f7);
+            
+    
+            var popup_ea689338e5f543cfb6b27961857be073 = L.popup({maxWidth: '300'});
+
+            
+                var html_3d896478b821411c815e4b399c74d5ef = $('<div id="html_3d896478b821411c815e4b399c74d5ef" style="width: 100.0%; height: 100.0%;"><center><strong>centre d entretien autoroutier </strong></center><br> <b>Ministere:</b> Environnement et mer<br>             <b>Fonction:</b> Centre entretien, intervention</div>')[0];
+                popup_ea689338e5f543cfb6b27961857be073.setContent(html_3d896478b821411c815e4b399c74d5ef);
+            
+
+            circle_marker_54c576fcf5cf4ffe9af8d9cb81a67631.bindPopup(popup_ea689338e5f543cfb6b27961857be073);
+
+            
+        
+    
+            var circle_marker_f614d383f306487e94eb878965788499 = L.circleMarker(
+                [48.589075,7.727319],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#0375B4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#0375B4",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_30a94ac6e93246ccaf6d47afb097b5f7);
+            
+    
+            var popup_841bf2e8f17247838bd528ad96c5cde1 = L.popup({maxWidth: '300'});
+
+            
+                var html_8b99349a8ff74aaaa832e3a56b513120 = $('<div id="html_8b99349a8ff74aaaa832e3a56b513120" style="width: 100.0%; height: 100.0%;"><center><strong>a35 n¡2 garages </strong></center><br> <b>Ministere:</b> Environnement et mer<br>             <b>Fonction:</b> Garage</div>')[0];
+                popup_841bf2e8f17247838bd528ad96c5cde1.setContent(html_8b99349a8ff74aaaa832e3a56b513120);
+            
+
+            circle_marker_f614d383f306487e94eb878965788499.bindPopup(popup_841bf2e8f17247838bd528ad96c5cde1);
+
+            
+        
+    
+            var circle_marker_624a262d6e5a488c9adf179f3d4ffd57 = L.circleMarker(
+                [48.578947,7.7614800000000015],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#0375B4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#0375B4",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_30a94ac6e93246ccaf6d47afb097b5f7);
+            
+    
+            var popup_0d2e693af65e4a86a57c003c29e4a9dc = L.popup({maxWidth: '300'});
+
+            
+                var html_ef2916833953423d84debd99dd3b63ff = $('<div id="html_ef2916833953423d84debd99dd3b63ff" style="width: 100.0%; height: 100.0%;"><center><strong>direction departementale des territoires </strong></center><br> <b>Ministere:</b> Environnement et mer<br>             <b>Fonction:</b> Immeuble de bureaux</div>')[0];
+                popup_0d2e693af65e4a86a57c003c29e4a9dc.setContent(html_ef2916833953423d84debd99dd3b63ff);
+            
+
+            circle_marker_624a262d6e5a488c9adf179f3d4ffd57.bindPopup(popup_0d2e693af65e4a86a57c003c29e4a9dc);
+
+            
+        
+    
+            var circle_marker_1bc51fd75c474c449ef435ab5d456597 = L.circleMarker(
+                [48.58805200000001,7.737278999999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#0375B4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#0375B4",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_30a94ac6e93246ccaf6d47afb097b5f7);
+            
+    
+            var popup_50d452555a2f469fab6f43f7e0179a99 = L.popup({maxWidth: '300'});
+
+            
+                var html_f5ec73a9ae08422bbd4c80659fcc5ae1 = $('<div id="html_f5ec73a9ae08422bbd4c80659fcc5ae1" style="width: 100.0%; height: 100.0%;"><center><strong>penetrante des halles </strong></center><br> <b>Ministere:</b> Environnement et mer<br>             <b>Fonction:</b> Terrain dlaiss</div>')[0];
+                popup_50d452555a2f469fab6f43f7e0179a99.setContent(html_f5ec73a9ae08422bbd4c80659fcc5ae1);
+            
+
+            circle_marker_1bc51fd75c474c449ef435ab5d456597.bindPopup(popup_50d452555a2f469fab6f43f7e0179a99);
+
+            
+        
+    
+            var circle_marker_f9ed05acfb8942cc8f353a8e3a82a19a = L.circleMarker(
+                [48.573674,7.727953],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#0375B4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#0375B4",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_30a94ac6e93246ccaf6d47afb097b5f7);
+            
+    
+            var popup_9e5365f3720c400a898c5db71509d114 = L.popup({maxWidth: '300'});
+
+            
+                var html_39d622be4f8440dbbbccb8bbc4926821 = $('<div id="html_39d622be4f8440dbbbccb8bbc4926821" style="width: 100.0%; height: 100.0%;"><center><strong>voie de contournement sud </strong></center><br> <b>Ministere:</b> Environnement et mer<br>             <b>Fonction:</b> Terrain dlaiss</div>')[0];
+                popup_9e5365f3720c400a898c5db71509d114.setContent(html_39d622be4f8440dbbbccb8bbc4926821);
+            
+
+            circle_marker_f9ed05acfb8942cc8f353a8e3a82a19a.bindPopup(popup_9e5365f3720c400a898c5db71509d114);
+
+            
+        
+    
+            var circle_marker_78dcbad686504a518e2b2b1bde83eef5 = L.circleMarker(
+                [48.58353,7.746735],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#0375B4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#0375B4",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_30a94ac6e93246ccaf6d47afb097b5f7);
+            
+    
+            var popup_24ea9e241bf64838bf4083cea0edbaca = L.popup({maxWidth: '300'});
+
+            
+                var html_b134f5443b434b4bae397da740a0f9ec = $('<div id="html_b134f5443b434b4bae397da740a0f9ec" style="width: 100.0%; height: 100.0%;"><center><strong>rn 353 strasbourg </strong></center><br> <b>Ministere:</b> Environnement et mer<br>             <b>Fonction:</b> Terrain dlaiss</div>')[0];
+                popup_24ea9e241bf64838bf4083cea0edbaca.setContent(html_b134f5443b434b4bae397da740a0f9ec);
+            
+
+            circle_marker_78dcbad686504a518e2b2b1bde83eef5.bindPopup(popup_24ea9e241bf64838bf4083cea0edbaca);
+
+            
+        
+    
+            var circle_marker_3fdcf6c420e743b7a79e8d3ab7da9e50 = L.circleMarker(
+                [48.570826,7.709227],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#0375B4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#0375B4",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_30a94ac6e93246ccaf6d47afb097b5f7);
+            
+    
+            var popup_91f7f01cb67845cda161b30f78543a0e = L.popup({maxWidth: '300'});
+
+            
+                var html_3f6ac7cf2c5e43939481c6ec2e4e71e5 = $('<div id="html_3f6ac7cf2c5e43939481c6ec2e4e71e5" style="width: 100.0%; height: 100.0%;"><center><strong>itineraire ouvert aux pietons </strong></center><br> <b>Ministere:</b> Environnement et mer<br>             <b>Fonction:</b> Terrain en friche</div>')[0];
+                popup_91f7f01cb67845cda161b30f78543a0e.setContent(html_3f6ac7cf2c5e43939481c6ec2e4e71e5);
+            
+
+            circle_marker_3fdcf6c420e743b7a79e8d3ab7da9e50.bindPopup(popup_91f7f01cb67845cda161b30f78543a0e);
+
+            
+        
+    
+            var circle_marker_6e14f6067a1043b29046da450cbad4ad = L.circleMarker(
+                [48.572785,7.793404],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#0375B4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#0375B4",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_30a94ac6e93246ccaf6d47afb097b5f7);
+            
+    
+            var popup_c0c97b464ab84f18894eec95e34dacb9 = L.popup({maxWidth: '300'});
+
+            
+                var html_61b9498062cf4433a7eab31fd19b117b = $('<div id="html_61b9498062cf4433a7eab31fd19b117b" style="width: 100.0%; height: 100.0%;"><center><strong>direct. depart. de l equipement </strong></center><br> <b>Ministere:</b> Environnement et mer<br>             <b>Fonction:</b> Terrain en friche</div>')[0];
+                popup_c0c97b464ab84f18894eec95e34dacb9.setContent(html_61b9498062cf4433a7eab31fd19b117b);
+            
+
+            circle_marker_6e14f6067a1043b29046da450cbad4ad.bindPopup(popup_c0c97b464ab84f18894eec95e34dacb9);
+
+            
+        
+    
+            var circle_marker_d478838eb0b44d76839a289eeef06437 = L.circleMarker(
+                [48.58353,7.746735],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#0375B4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#0375B4",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_30a94ac6e93246ccaf6d47afb097b5f7);
+            
+    
+            var popup_85ec8f059cba4e5f85ca41e06d3b430a = L.popup({maxWidth: '300'});
+
+            
+                var html_2dbca42f820843279bc898e4aed71bc0 = $('<div id="html_2dbca42f820843279bc898e4aed71bc0" style="width: 100.0%; height: 100.0%;"><center><strong>radiobalise de cronenbourg </strong></center><br> <b>Ministere:</b> Environnement et mer<br>             <b>Fonction:</b> Installation aroportuaire</div>')[0];
+                popup_85ec8f059cba4e5f85ca41e06d3b430a.setContent(html_2dbca42f820843279bc898e4aed71bc0);
+            
+
+            circle_marker_d478838eb0b44d76839a289eeef06437.bindPopup(popup_85ec8f059cba4e5f85ca41e06d3b430a);
+
+            
+        
+    
+            var circle_marker_1e82167bfebb42d6b351f57d6a9fe32b = L.circleMarker(
+                [48.564474,7.757484],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#007849",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#007849",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_30a94ac6e93246ccaf6d47afb097b5f7);
+            
+    
+            var popup_d1335f72480c4e8db0ea2af92c58c769 = L.popup({maxWidth: '300'});
+
+            
+                var html_1854844cfcc84de790bc0897838cad31 = $('<div id="html_1854844cfcc84de790bc0897838cad31" style="width: 100.0%; height: 100.0%;"><center><strong>entrepot </strong></center><br> <b>Ministere:</b> Economie et finances<br>             <b>Fonction:</b> Btiment de stockage</div>')[0];
+                popup_d1335f72480c4e8db0ea2af92c58c769.setContent(html_1854844cfcc84de790bc0897838cad31);
+            
+
+            circle_marker_1e82167bfebb42d6b351f57d6a9fe32b.bindPopup(popup_d1335f72480c4e8db0ea2af92c58c769);
+
+            
+        
+    
+            var circle_marker_d1f19913d0dc48eeb2e5b65cddee02c5 = L.circleMarker(
+                [48.564474,7.757484],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#007849",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#007849",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_30a94ac6e93246ccaf6d47afb097b5f7);
+            
+    
+            var popup_96d98b6fd9a74f92b4e880c8e7f2e1fc = L.popup({maxWidth: '300'});
+
+            
+                var html_87e02ceb79e4437abb0628a638c1ddf9 = $('<div id="html_87e02ceb79e4437abb0628a638c1ddf9" style="width: 100.0%; height: 100.0%;"><center><strong>garage exterieur </strong></center><br> <b>Ministere:</b> Economie et finances<br>             <b>Fonction:</b> Garage</div>')[0];
+                popup_96d98b6fd9a74f92b4e880c8e7f2e1fc.setContent(html_87e02ceb79e4437abb0628a638c1ddf9);
+            
+
+            circle_marker_d1f19913d0dc48eeb2e5b65cddee02c5.bindPopup(popup_96d98b6fd9a74f92b4e880c8e7f2e1fc);
+
+            
+        
+    
+            var circle_marker_a2dc4a2de5284aabbe9a1baedd0acaea = L.circleMarker(
+                [48.581805,7.775486999999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#FFCE00",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#FFCE00",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_30a94ac6e93246ccaf6d47afb097b5f7);
+            
+    
+            var popup_7a6a832909284360a3d11d972999739c = L.popup({maxWidth: '300'});
+
+            
+                var html_4da3d513de434326aca81de4d88c9557 = $('<div id="html_4da3d513de434326aca81de4d88c9557" style="width: 100.0%; height: 100.0%;"><center><strong>remise </strong></center><br> <b>Ministere:</b> Education nationale, enseignement suprieur et recherche<br>             <b>Fonction:</b> Btiment de stockage</div>')[0];
+                popup_7a6a832909284360a3d11d972999739c.setContent(html_4da3d513de434326aca81de4d88c9557);
+            
+
+            circle_marker_a2dc4a2de5284aabbe9a1baedd0acaea.bindPopup(popup_7a6a832909284360a3d11d972999739c);
+
+            
+        
+    
+            var circle_marker_4ce47c1cf5fd47a891dd5186ee986011 = L.circleMarker(
+                [48.581805,7.775486999999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#FFCE00",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#FFCE00",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_30a94ac6e93246ccaf6d47afb097b5f7);
+            
+    
+            var popup_46415c3d25a948dba0fbe8986d55390d = L.popup({maxWidth: '300'});
+
+            
+                var html_736965d759fe4c46ac5255a65d8569eb = $('<div id="html_736965d759fe4c46ac5255a65d8569eb" style="width: 100.0%; height: 100.0%;"><center><strong>garage n¡3 </strong></center><br> <b>Ministere:</b> Education nationale, enseignement suprieur et recherche<br>             <b>Fonction:</b> Garage</div>')[0];
+                popup_46415c3d25a948dba0fbe8986d55390d.setContent(html_736965d759fe4c46ac5255a65d8569eb);
+            
+
+            circle_marker_4ce47c1cf5fd47a891dd5186ee986011.bindPopup(popup_46415c3d25a948dba0fbe8986d55390d);
+
+            
+        
+    
+            var circle_marker_c55ace3bb1554ee0bececd14030237f7 = L.circleMarker(
+                [48.581805,7.775486999999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#FFCE00",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#FFCE00",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_30a94ac6e93246ccaf6d47afb097b5f7);
+            
+    
+            var popup_3631f12704fe43369f94e89c4e453947 = L.popup({maxWidth: '300'});
+
+            
+                var html_d4c8b5907f654435852de582de885f9c = $('<div id="html_d4c8b5907f654435852de582de885f9c" style="width: 100.0%; height: 100.0%;"><center><strong>garage n¡2 </strong></center><br> <b>Ministere:</b> Education nationale, enseignement suprieur et recherche<br>             <b>Fonction:</b> Garage</div>')[0];
+                popup_3631f12704fe43369f94e89c4e453947.setContent(html_d4c8b5907f654435852de582de885f9c);
+            
+
+            circle_marker_c55ace3bb1554ee0bececd14030237f7.bindPopup(popup_3631f12704fe43369f94e89c4e453947);
+
+            
+        
+    
+            var circle_marker_9d5ac65ee38b402589b7eb269a62105e = L.circleMarker(
+                [48.581805,7.775486999999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#FFCE00",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#FFCE00",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_30a94ac6e93246ccaf6d47afb097b5f7);
+            
+    
+            var popup_c3eb32137b5b4fa2b8e5c60612eacfe0 = L.popup({maxWidth: '300'});
+
+            
+                var html_8fdbd87781d64bd7a490fa300932045a = $('<div id="html_8fdbd87781d64bd7a490fa300932045a" style="width: 100.0%; height: 100.0%;"><center><strong>garage n¡1 </strong></center><br> <b>Ministere:</b> Education nationale, enseignement suprieur et recherche<br>             <b>Fonction:</b> Garage</div>')[0];
+                popup_c3eb32137b5b4fa2b8e5c60612eacfe0.setContent(html_8fdbd87781d64bd7a490fa300932045a);
+            
+
+            circle_marker_9d5ac65ee38b402589b7eb269a62105e.bindPopup(popup_c3eb32137b5b4fa2b8e5c60612eacfe0);
+
+            
+        
+    
+            var circle_marker_1d4d3348a59149f8afa35cd22c22a480 = L.circleMarker(
+                [48.581805,7.775486999999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#FFCE00",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#FFCE00",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_30a94ac6e93246ccaf6d47afb097b5f7);
+            
+    
+            var popup_2fc3f3827259433e9fe888d87b5078a3 = L.popup({maxWidth: '300'});
+
+            
+                var html_f6f0576e08954ce2a5775448dfc4e8c5 = $('<div id="html_f6f0576e08954ce2a5775448dfc4e8c5" style="width: 100.0%; height: 100.0%;"><center><strong>dsden bas-rhin </strong></center><br> <b>Ministere:</b> Education nationale, enseignement suprieur et recherche<br>             <b>Fonction:</b> Inspection Acadmique</div>')[0];
+                popup_2fc3f3827259433e9fe888d87b5078a3.setContent(html_f6f0576e08954ce2a5775448dfc4e8c5);
+            
+
+            circle_marker_1d4d3348a59149f8afa35cd22c22a480.bindPopup(popup_2fc3f3827259433e9fe888d87b5078a3);
+
+            
+        
+    
+            var circle_marker_bb45563ca1ee477ea38635762a70845e = L.circleMarker(
+                [48.586554,7.743557000000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#FFCE00",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#FFCE00",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_30a94ac6e93246ccaf6d47afb097b5f7);
+            
+    
+            var popup_517bd1983b2e459d89632e98b9482a91 = L.popup({maxWidth: '300'});
+
+            
+                var html_8c6d5587de9441eda98abf6803d392fb = $('<div id="html_8c6d5587de9441eda98abf6803d392fb" style="width: 100.0%; height: 100.0%;"><center><strong>rectorat de l academie de strasbourg </strong></center><br> <b>Ministere:</b> Education nationale, enseignement suprieur et recherche<br>             <b>Fonction:</b> Rectorat</div>')[0];
+                popup_517bd1983b2e459d89632e98b9482a91.setContent(html_8c6d5587de9441eda98abf6803d392fb);
+            
+
+            circle_marker_bb45563ca1ee477ea38635762a70845e.bindPopup(popup_517bd1983b2e459d89632e98b9482a91);
+
+            
+        
+    
+            var circle_marker_8ab47086efa44f34b12f628b56cae36a = L.circleMarker(
+                [48.576621,7.750571000000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#FFCE00",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#FFCE00",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_30a94ac6e93246ccaf6d47afb097b5f7);
+            
+    
+            var popup_7fb18f99aba94427bf35c4ae1954c1bd = L.popup({maxWidth: '300'});
+
+            
+                var html_bd7e9e83c4934024b45ad582793c2979 = $('<div id="html_bd7e9e83c4934024b45ad582793c2979" style="width: 100.0%; height: 100.0%;"><center><strong>terrain du centre paul strauss </strong></center><br> <b>Ministere:</b> Education nationale, enseignement suprieur et recherche<br>             <b>Fonction:</b> Terrain en friche</div>')[0];
+                popup_7fb18f99aba94427bf35c4ae1954c1bd.setContent(html_bd7e9e83c4934024b45ad582793c2979);
+            
+
+            circle_marker_8ab47086efa44f34b12f628b56cae36a.bindPopup(popup_7fb18f99aba94427bf35c4ae1954c1bd);
+
+            
+        
+    
+            var circle_marker_d484b8cafeba4b4a80a25d28561523d9 = L.circleMarker(
+                [48.614788,7.787947],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#FFCE00",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#FFCE00",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_30a94ac6e93246ccaf6d47afb097b5f7);
+            
+    
+            var popup_b118eec8562244fc9655c195aae29675 = L.popup({maxWidth: '300'});
+
+            
+                var html_b6a5a74d7ad8488faad4756ebdfb1b74 = $('<div id="html_b6a5a74d7ad8488faad4756ebdfb1b74" style="width: 100.0%; height: 100.0%;"><center><strong>terrain de l ecole europeenne </strong></center><br> <b>Ministere:</b> Education nationale, enseignement suprieur et recherche<br>             <b>Fonction:</b> Terrain en friche</div>')[0];
+                popup_b118eec8562244fc9655c195aae29675.setContent(html_b6a5a74d7ad8488faad4756ebdfb1b74);
+            
+
+            circle_marker_d484b8cafeba4b4a80a25d28561523d9.bindPopup(popup_b118eec8562244fc9655c195aae29675);
+
+            
+        
+    
+            var circle_marker_30a513124cc2486dabe1ed5a6a0819e3 = L.circleMarker(
+                [48.572785,7.793404],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#007849",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#007849",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_30a94ac6e93246ccaf6d47afb097b5f7);
+            
+    
+            var popup_3d7e6fa89fdc493480ae1a7aab4f5a46 = L.popup({maxWidth: '300'});
+
+            
+                var html_7971934c40674710bb61ea97937e8543 = $('<div id="html_7971934c40674710bb61ea97937e8543" style="width: 100.0%; height: 100.0%;"><center><strong>c.r.d - b.s.i strasbourg </strong></center><br> <b>Ministere:</b> Economie et finances<br>             <b>Fonction:</b> Immeuble de bureaux</div>')[0];
+                popup_3d7e6fa89fdc493480ae1a7aab4f5a46.setContent(html_7971934c40674710bb61ea97937e8543);
+            
+
+            circle_marker_30a513124cc2486dabe1ed5a6a0819e3.bindPopup(popup_3d7e6fa89fdc493480ae1a7aab4f5a46);
+
+            
+        
+    
+            var circle_marker_74d4407b00704612a4a5de71fc6a683d = L.circleMarker(
+                [48.56545,7.708053],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#007849",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#007849",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_30a94ac6e93246ccaf6d47afb097b5f7);
+            
+    
+            var popup_9bc8ff0747374f329735a72c7207dfe9 = L.popup({maxWidth: '300'});
+
+            
+                var html_a1f606780a3e4a819f2feb88b84d879a = $('<div id="html_a1f606780a3e4a819f2feb88b84d879a" style="width: 100.0%; height: 100.0%;"><center><strong>service de la viticulture </strong></center><br> <b>Ministere:</b> Economie et finances<br>             <b>Fonction:</b> Immeuble de bureaux</div>')[0];
+                popup_9bc8ff0747374f329735a72c7207dfe9.setContent(html_a1f606780a3e4a819f2feb88b84d879a);
+            
+
+            circle_marker_74d4407b00704612a4a5de71fc6a683d.bindPopup(popup_9bc8ff0747374f329735a72c7207dfe9);
+
+            
+        
+    
+            var circle_marker_d05d80cd5f1141ac8ed50307fcde32d7 = L.circleMarker(
+                [48.577812,7.7617600000000015],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#007849",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#007849",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_30a94ac6e93246ccaf6d47afb097b5f7);
+            
+    
+            var popup_920aef6a23ab4477bae9c36da7b521c2 = L.popup({maxWidth: '300'});
+
+            
+                var html_f30594fbf04b44fea79eeed66514aad5 = $('<div id="html_f30594fbf04b44fea79eeed66514aad5" style="width: 100.0%; height: 100.0%;"><center><strong>cite administrative - batiment f nord </strong></center><br> <b>Ministere:</b> Economie et finances<br>             <b>Fonction:</b> Immeuble de bureaux</div>')[0];
+                popup_920aef6a23ab4477bae9c36da7b521c2.setContent(html_f30594fbf04b44fea79eeed66514aad5);
+            
+
+            circle_marker_d05d80cd5f1141ac8ed50307fcde32d7.bindPopup(popup_920aef6a23ab4477bae9c36da7b521c2);
+
+            
+        
+    
+            var circle_marker_5f49411725cb4f9c93b4122d52f8073c = L.circleMarker(
+                [48.587695,7.746287],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#007849",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#007849",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_30a94ac6e93246ccaf6d47afb097b5f7);
+            
+    
+            var popup_028ea840389e4743b6bb2a79c49ac4b7 = L.popup({maxWidth: '300'});
+
+            
+                var html_061882da5a494f1eb4fb2219ad8ae39d = $('<div id="html_061882da5a494f1eb4fb2219ad8ae39d" style="width: 100.0%; height: 100.0%;"><center><strong>chambre regionale des comptes </strong></center><br> <b>Ministere:</b> Economie et finances<br>             <b>Fonction:</b> Immeuble de bureaux</div>')[0];
+                popup_028ea840389e4743b6bb2a79c49ac4b7.setContent(html_061882da5a494f1eb4fb2219ad8ae39d);
+            
+
+            circle_marker_5f49411725cb4f9c93b4122d52f8073c.bindPopup(popup_028ea840389e4743b6bb2a79c49ac4b7);
+
+            
+        
+    
+            var circle_marker_1eb298a3cddd42bdb351b119d80cc2bc = L.circleMarker(
+                [48.603541,7.790253999999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#007849",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#007849",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_30a94ac6e93246ccaf6d47afb097b5f7);
+            
+    
+            var popup_236a0babb521455494d1c41d14fe76ef = L.popup({maxWidth: '300'});
+
+            
+                var html_23447df289d34a1182ed915e1c41c1f1 = $('<div id="html_23447df289d34a1182ed915e1c41c1f1" style="width: 100.0%; height: 100.0%;"><center><strong>autoroute a351 strasbourg </strong></center><br> <b>Ministere:</b> Economie et finances<br>             <b>Fonction:</b> Terrain dlaiss</div>')[0];
+                popup_236a0babb521455494d1c41d14fe76ef.setContent(html_23447df289d34a1182ed915e1c41c1f1);
+            
+
+            circle_marker_1eb298a3cddd42bdb351b119d80cc2bc.bindPopup(popup_236a0babb521455494d1c41d14fe76ef);
+
+            
+        
+    
+            var circle_marker_fa56a35645584fccb0da3f2551301990 = L.circleMarker(
+                [48.590743,7.792663],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#007849",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#007849",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_30a94ac6e93246ccaf6d47afb097b5f7);
+            
+    
+            var popup_e633e7d922a94b518db5268684816f2d = L.popup({maxWidth: '300'});
+
+            
+                var html_6fcf716dcef44da5a2d6d9ed465cf889 = $('<div id="html_6fcf716dcef44da5a2d6d9ed465cf889" style="width: 100.0%; height: 100.0%;"><center><strong>parcelle vnf section br n¡165 </strong></center><br> <b>Ministere:</b> Economie et finances<br>             <b>Fonction:</b> Terrain dlaiss</div>')[0];
+                popup_e633e7d922a94b518db5268684816f2d.setContent(html_6fcf716dcef44da5a2d6d9ed465cf889);
+            
+
+            circle_marker_fa56a35645584fccb0da3f2551301990.bindPopup(popup_e633e7d922a94b518db5268684816f2d);
+
+            
+        
+    
+            var circle_marker_8c8c74ddb90d495f9e4562bdc9c19e84 = L.circleMarker(
+                [48.581905,7.742462],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#007849",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#007849",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_30a94ac6e93246ccaf6d47afb097b5f7);
+            
+    
+            var popup_8aa66c356dcc41239ed8c6af93a47b38 = L.popup({maxWidth: '300'});
+
+            
+                var html_83ceb07e60d84d128f577226a140bfe5 = $('<div id="html_83ceb07e60d84d128f577226a140bfe5" style="width: 100.0%; height: 100.0%;"><center><strong>autoroute a 4 strasbourg nord </strong></center><br> <b>Ministere:</b> Economie et finances<br>             <b>Fonction:</b> Terrain dlaiss</div>')[0];
+                popup_8aa66c356dcc41239ed8c6af93a47b38.setContent(html_83ceb07e60d84d128f577226a140bfe5);
+            
+
+            circle_marker_8c8c74ddb90d495f9e4562bdc9c19e84.bindPopup(popup_8aa66c356dcc41239ed8c6af93a47b38);
+
+            
+        
+    
+            var circle_marker_33392599fbd846ce9ccdcb3fa998a538 = L.circleMarker(
+                [48.56457,7.729131],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#007849",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#007849",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_30a94ac6e93246ccaf6d47afb097b5f7);
+            
+    
+            var popup_295e353eed084f618ca074180c16cdd0 = L.popup({maxWidth: '300'});
+
+            
+                var html_05083ab74118468584653a32631e7ce9 = $('<div id="html_05083ab74118468584653a32631e7ce9" style="width: 100.0%; height: 100.0%;"><center><strong>terrain de l unterelsau a ceder a l ems </strong></center><br> <b>Ministere:</b> Economie et finances<br>             <b>Fonction:</b> Terrain dlaiss</div>')[0];
+                popup_295e353eed084f618ca074180c16cdd0.setContent(html_05083ab74118468584653a32631e7ce9);
+            
+
+            circle_marker_33392599fbd846ce9ccdcb3fa998a538.bindPopup(popup_295e353eed084f618ca074180c16cdd0);
+
+            
+        
+    
+            var circle_marker_150871d59a254d2eba73825c5767872f = L.circleMarker(
+                [48.57529,7.726441],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#007849",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#007849",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_30a94ac6e93246ccaf6d47afb097b5f7);
+            
+    
+            var popup_6816c1e9fb894ccaaab2a71d1f5666b3 = L.popup({maxWidth: '300'});
+
+            
+                var html_9e345d7773af47af94ed8144ba1fc9d4 = $('<div id="html_9e345d7773af47af94ed8144ba1fc9d4" style="width: 100.0%; height: 100.0%;"><center><strong>partie des fortifications </strong></center><br> <b>Ministere:</b> Economie et finances<br>             <b>Fonction:</b> Terrain en friche</div>')[0];
+                popup_6816c1e9fb894ccaaab2a71d1f5666b3.setContent(html_9e345d7773af47af94ed8144ba1fc9d4);
+            
+
+            circle_marker_150871d59a254d2eba73825c5767872f.bindPopup(popup_6816c1e9fb894ccaaab2a71d1f5666b3);
+
+            
+        
+    
+            var circle_marker_a1e52766107b45f68e3e833918e2f7fd = L.circleMarker(
+                [48.576832,7.728329],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#007849",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#007849",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_30a94ac6e93246ccaf6d47afb097b5f7);
+            
+    
+            var popup_784dbf1a189e485ca02f0540a470e6c5 = L.popup({maxWidth: '300'});
+
+            
+                var html_a4f559481eb246d0840b750af53f3922 = $('<div id="html_a4f559481eb246d0840b750af53f3922" style="width: 100.0%; height: 100.0%;"><center><strong>terrain - strasbourg </strong></center><br> <b>Ministere:</b> Economie et finances<br>             <b>Fonction:</b> Terrain en friche</div>')[0];
+                popup_784dbf1a189e485ca02f0540a470e6c5.setContent(html_a4f559481eb246d0840b750af53f3922);
+            
+
+            circle_marker_a1e52766107b45f68e3e833918e2f7fd.bindPopup(popup_784dbf1a189e485ca02f0540a470e6c5);
+
+            
+        
+    
+            var circle_marker_ccd7a5dc2f5746afb06accbac13db914 = L.circleMarker(
+                [48.585079,7.729419999999998],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#007849",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#007849",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_30a94ac6e93246ccaf6d47afb097b5f7);
+            
+    
+            var popup_22297e55175747fca7e3be4b72674e6f = L.popup({maxWidth: '300'});
+
+            
+                var html_3e0b5c5a339f4ddc9768c5d0fc4a06f8 = $('<div id="html_3e0b5c5a339f4ddc9768c5d0fc4a06f8" style="width: 100.0%; height: 100.0%;"><center><strong>fosse des remparts parcelle 18/1 </strong></center><br> <b>Ministere:</b> Economie et finances<br>             <b>Fonction:</b> Terrain en friche</div>')[0];
+                popup_22297e55175747fca7e3be4b72674e6f.setContent(html_3e0b5c5a339f4ddc9768c5d0fc4a06f8);
+            
+
+            circle_marker_ccd7a5dc2f5746afb06accbac13db914.bindPopup(popup_22297e55175747fca7e3be4b72674e6f);
+
+            
+        
+    
+            var circle_marker_6c33196a69724e66a241a4a4dad2d2d3 = L.circleMarker(
+                [48.590743,7.792663],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#007849",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#007849",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_30a94ac6e93246ccaf6d47afb097b5f7);
+            
+    
+            var popup_a9e7b5a6c883406c8a343bdb9877d274 = L.popup({maxWidth: '300'});
+
+            
+                var html_04bd3c2a9fa54130a4ffc83115aa04b1 = $('<div id="html_04bd3c2a9fa54130a4ffc83115aa04b1" style="width: 100.0%; height: 100.0%;"><center><strong>reseaux et voiries section da n¡74 et 108 </strong></center><br> <b>Ministere:</b> Economie et finances<br>             <b>Fonction:</b> Voie de circulation routire</div>')[0];
+                popup_a9e7b5a6c883406c8a343bdb9877d274.setContent(html_04bd3c2a9fa54130a4ffc83115aa04b1);
+            
+
+            circle_marker_6c33196a69724e66a241a4a4dad2d2d3.bindPopup(popup_a9e7b5a6c883406c8a343bdb9877d274);
+
+            
+        
+    
+            var circle_marker_ad03b1b457894652a1c44a588995eb6d = L.circleMarker(
+                [48.582487,7.751947],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#0A8A9F",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#0A8A9F",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_30a94ac6e93246ccaf6d47afb097b5f7);
+            
+    
+            var popup_2b9df35e0f3f4cc4afaa1c88ab69595e = L.popup({maxWidth: '300'});
+
+            
+                var html_bf8f79d59c1a40cebad37ff5729fe5ba = $('<div id="html_bf8f79d59c1a40cebad37ff5729fe5ba" style="width: 100.0%; height: 100.0%;"><center><strong>grand seminaire </strong></center><br> <b>Ministere:</b> Intrieur<br>             <b>Fonction:</b> Btiment scolaire/enseignement</div>')[0];
+                popup_2b9df35e0f3f4cc4afaa1c88ab69595e.setContent(html_bf8f79d59c1a40cebad37ff5729fe5ba);
+            
+
+            circle_marker_ad03b1b457894652a1c44a588995eb6d.bindPopup(popup_2b9df35e0f3f4cc4afaa1c88ab69595e);
+
+            
+        
+    
+            var circle_marker_9da442ba7d554a099470ffce60b1e71c = L.circleMarker(
+                [48.576555,7.734077],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#0A8A9F",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#0A8A9F",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_30a94ac6e93246ccaf6d47afb097b5f7);
+            
+    
+            var popup_7755a6d01e4a4ab5b5497b2db8d74633 = L.popup({maxWidth: '300'});
+
+            
+                var html_67633a89050b4c0abf4dc21c7f219a1d = $('<div id="html_67633a89050b4c0abf4dc21c7f219a1d" style="width: 100.0%; height: 100.0%;"><center><strong>senarmont </strong></center><br> <b>Ministere:</b> Intrieur<br>             <b>Fonction:</b> Bt. restauration collective</div>')[0];
+                popup_7755a6d01e4a4ab5b5497b2db8d74633.setContent(html_67633a89050b4c0abf4dc21c7f219a1d);
+            
+
+            circle_marker_9da442ba7d554a099470ffce60b1e71c.bindPopup(popup_7755a6d01e4a4ab5b5497b2db8d74633);
+
+            
+        
+    
+            var circle_marker_692b0573f02943418d3ffbe16e4f7808 = L.circleMarker(
+                [48.577812,7.7617600000000015],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#0A8A9F",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#0A8A9F",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_30a94ac6e93246ccaf6d47afb097b5f7);
+            
+    
+            var popup_9330ce3ca5f0484886477bfe428cc6e7 = L.popup({maxWidth: '300'});
+
+            
+                var html_49878d6db9ca4d1183a759f2499caa4a = $('<div id="html_49878d6db9ca4d1183a759f2499caa4a" style="width: 100.0%; height: 100.0%;"><center><strong>cite administrative - batiment h </strong></center><br> <b>Ministere:</b> Intrieur<br>             <b>Fonction:</b> Bt. restauration collective</div>')[0];
+                popup_9330ce3ca5f0484886477bfe428cc6e7.setContent(html_49878d6db9ca4d1183a759f2499caa4a);
+            
+
+            circle_marker_692b0573f02943418d3ffbe16e4f7808.bindPopup(popup_9330ce3ca5f0484886477bfe428cc6e7);
+
+            
+        
+    
+            var circle_marker_eefc3550b42b49bb91890025f05aeba3 = L.circleMarker(
+                [48.580032,7.735349],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#0A8A9F",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#0A8A9F",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_30a94ac6e93246ccaf6d47afb097b5f7);
+            
+    
+            var popup_eaa5d24747b54ccda494dfa4a3670a3f = L.popup({maxWidth: '300'});
+
+            
+                var html_97ceeeb7e2794ba8918fe3e58dd204d5 = $('<div id="html_97ceeeb7e2794ba8918fe3e58dd204d5" style="width: 100.0%; height: 100.0%;"><center><strong>atelier </strong></center><br> <b>Ministere:</b> Intrieur<br>             <b>Fonction:</b> Atelier rparation, entretien</div>')[0];
+                popup_eaa5d24747b54ccda494dfa4a3670a3f.setContent(html_97ceeeb7e2794ba8918fe3e58dd204d5);
+            
+
+            circle_marker_eefc3550b42b49bb91890025f05aeba3.bindPopup(popup_eaa5d24747b54ccda494dfa4a3670a3f);
+
+            
+        
+    
+            var circle_marker_fd346b1fe1fc43f1b588b6d6886b7fc1 = L.circleMarker(
+                [48.60488400000001,7.7692960000000015],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#0A8A9F",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#0A8A9F",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_30a94ac6e93246ccaf6d47afb097b5f7);
+            
+    
+            var popup_a18143f980184de598ac4ad21bcfda09 = L.popup({maxWidth: '300'});
+
+            
+                var html_126ea75667d043e0b3eef1dc2d288f4a = $('<div id="html_126ea75667d043e0b3eef1dc2d288f4a" style="width: 100.0%; height: 100.0%;"><center><strong>bat 004 atelier 1 et 2 crs 37  ciblerie </strong></center><br> <b>Ministere:</b> Intrieur<br>             <b>Fonction:</b> Atelier rparation, entretien</div>')[0];
+                popup_a18143f980184de598ac4ad21bcfda09.setContent(html_126ea75667d043e0b3eef1dc2d288f4a);
+            
+
+            circle_marker_fd346b1fe1fc43f1b588b6d6886b7fc1.bindPopup(popup_a18143f980184de598ac4ad21bcfda09);
+
+            
+        
+    
+            var circle_marker_30daa756fc724599acd34f4e6b02ca06 = L.circleMarker(
+                [48.580032,7.735349],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#0A8A9F",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#0A8A9F",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_30a94ac6e93246ccaf6d47afb097b5f7);
+            
+    
+            var popup_c424a00b74e04da5b030874b60f922f6 = L.popup({maxWidth: '300'});
+
+            
+                var html_8c6cf9d64e544e2eb42aba74927f35c7 = $('<div id="html_8c6cf9d64e544e2eb42aba74927f35c7" style="width: 100.0%; height: 100.0%;"><center><strong>garage </strong></center><br> <b>Ministere:</b> Intrieur<br>             <b>Fonction:</b> Atelier rparation, entretien</div>')[0];
+                popup_c424a00b74e04da5b030874b60f922f6.setContent(html_8c6cf9d64e544e2eb42aba74927f35c7);
+            
+
+            circle_marker_30daa756fc724599acd34f4e6b02ca06.bindPopup(popup_c424a00b74e04da5b030874b60f922f6);
+
+            
+        
+    
+            var circle_marker_b9bfbca7196a4939a385b8d0ac35a890 = L.circleMarker(
+                [48.576555,7.734077],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#0A8A9F",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#0A8A9F",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_30a94ac6e93246ccaf6d47afb097b5f7);
+            
+    
+            var popup_808e6b2929ae47358ad16afda17e269c = L.popup({maxWidth: '300'});
+
+            
+                var html_caf389422130493dbd8d11b034f36a22 = $('<div id="html_caf389422130493dbd8d11b034f36a22" style="width: 100.0%; height: 100.0%;"><center><strong>annexe garage </strong></center><br> <b>Ministere:</b> Intrieur<br>             <b>Fonction:</b> Atelier rparation, entretien</div>')[0];
+                popup_808e6b2929ae47358ad16afda17e269c.setContent(html_caf389422130493dbd8d11b034f36a22);
+            
+
+            circle_marker_b9bfbca7196a4939a385b8d0ac35a890.bindPopup(popup_808e6b2929ae47358ad16afda17e269c);
+
+            
+        
+    
+            var circle_marker_c1549f9e60504ebea9b910888f4a0eda = L.circleMarker(
+                [48.576555,7.734077],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#0A8A9F",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#0A8A9F",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_30a94ac6e93246ccaf6d47afb097b5f7);
+            
+    
+            var popup_e41c46c9506b4fb5b1d7e053c0d7525b = L.popup({maxWidth: '300'});
+
+            
+                var html_880a3966d5804868bd976a438ff810cd = $('<div id="html_880a3966d5804868bd976a438ff810cd" style="width: 100.0%; height: 100.0%;"><center><strong>atelier auto </strong></center><br> <b>Ministere:</b> Intrieur<br>             <b>Fonction:</b> Atelier rparation, entretien</div>')[0];
+                popup_e41c46c9506b4fb5b1d7e053c0d7525b.setContent(html_880a3966d5804868bd976a438ff810cd);
+            
+
+            circle_marker_c1549f9e60504ebea9b910888f4a0eda.bindPopup(popup_e41c46c9506b4fb5b1d7e053c0d7525b);
+
+            
+        
+    
+            var circle_marker_4efe97c7cf4146589f7f916a9f5b60db = L.circleMarker(
+                [48.589244,7.766455],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#0A8A9F",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#0A8A9F",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_30a94ac6e93246ccaf6d47afb097b5f7);
+            
+    
+            var popup_133461f4721a4345b942e112c745a4b0 = L.popup({maxWidth: '300'});
+
+            
+                var html_5dae5c858fc14b9b800dce6b0d32c27f = $('<div id="html_5dae5c858fc14b9b800dce6b0d32c27f" style="width: 100.0%; height: 100.0%;"><center><strong>bat 006 soute a munitions </strong></center><br> <b>Ministere:</b> Intrieur<br>             <b>Fonction:</b> Btiment de stockage</div>')[0];
+                popup_133461f4721a4345b942e112c745a4b0.setContent(html_5dae5c858fc14b9b800dce6b0d32c27f);
+            
+
+            circle_marker_4efe97c7cf4146589f7f916a9f5b60db.bindPopup(popup_133461f4721a4345b942e112c745a4b0);
+
+            
+        
+    
+            var circle_marker_e4be219b1ff7486890081c2a7ec9e540 = L.circleMarker(
+                [48.60488400000001,7.7692960000000015],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#0A8A9F",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#0A8A9F",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_30a94ac6e93246ccaf6d47afb097b5f7);
+            
+    
+            var popup_f8128b3bcbc445d997c62f02781b172c = L.popup({maxWidth: '300'});
+
+            
+                var html_74f9fa8a0d864b07ab03b41a097ce30b = $('<div id="html_74f9fa8a0d864b07ab03b41a097ce30b" style="width: 100.0%; height: 100.0%;"><center><strong>bat 003 hangar crs 37 </strong></center><br> <b>Ministere:</b> Intrieur<br>             <b>Fonction:</b> Btiment technique</div>')[0];
+                popup_f8128b3bcbc445d997c62f02781b172c.setContent(html_74f9fa8a0d864b07ab03b41a097ce30b);
+            
+
+            circle_marker_e4be219b1ff7486890081c2a7ec9e540.bindPopup(popup_f8128b3bcbc445d997c62f02781b172c);
+
+            
+        
+    
+            var circle_marker_e92ec1179e154d5686e9697d2a771e98 = L.circleMarker(
+                [48.56545,7.708053],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#0A8A9F",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#0A8A9F",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_30a94ac6e93246ccaf6d47afb097b5f7);
+            
+    
+            var popup_453bfb330cdd4285a5f41df19a782050 = L.popup({maxWidth: '300'});
+
+            
+                var html_e8d4961c1c7a4025a0276a20ed93f1ad = $('<div id="html_e8d4961c1c7a4025a0276a20ed93f1ad" style="width: 100.0%; height: 100.0%;"><center><strong>centre de deminage </strong></center><br> <b>Ministere:</b> Intrieur<br>             <b>Fonction:</b> Btiment technique</div>')[0];
+                popup_453bfb330cdd4285a5f41df19a782050.setContent(html_e8d4961c1c7a4025a0276a20ed93f1ad);
+            
+
+            circle_marker_e92ec1179e154d5686e9697d2a771e98.bindPopup(popup_453bfb330cdd4285a5f41df19a782050);
+
+            
+        
+    
+            var circle_marker_5454a622ac82449194c68c590e1fc800 = L.circleMarker(
+                [48.574932,7.7336490000000015],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#0A8A9F",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#0A8A9F",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_30a94ac6e93246ccaf6d47afb097b5f7);
+            
+    
+            var popup_c49e2ea6136149f888919c20bc566070 = L.popup({maxWidth: '300'});
+
+            
+                var html_19319bb12356451f9ddbe2c12c442d5e = $('<div id="html_19319bb12356451f9ddbe2c12c442d5e" style="width: 100.0%; height: 100.0%;"><center><strong>garage deux roues marcot sud </strong></center><br> <b>Ministere:</b> Intrieur<br>             <b>Fonction:</b> Btiment technique</div>')[0];
+                popup_c49e2ea6136149f888919c20bc566070.setContent(html_19319bb12356451f9ddbe2c12c442d5e);
+            
+
+            circle_marker_5454a622ac82449194c68c590e1fc800.bindPopup(popup_c49e2ea6136149f888919c20bc566070);
+
+            
+        
+    
+            var circle_marker_02bd2d6589124bf9a501125399d20f6b = L.circleMarker(
+                [48.60488400000001,7.7692960000000015],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#0A8A9F",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#0A8A9F",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_30a94ac6e93246ccaf6d47afb097b5f7);
+            
+    
+            var popup_5722f2cb1d4b4b1d8afb816dbeb68da2 = L.popup({maxWidth: '300'});
+
+            
+                var html_5b9dd1570f644842b6dc0f8b2df3144e = $('<div id="html_5b9dd1570f644842b6dc0f8b2df3144e" style="width: 100.0%; height: 100.0%;"><center><strong>bat 002 btiment garages et bureaux crs 37- </strong></center><br> <b>Ministere:</b> Intrieur<br>             <b>Fonction:</b> Btiment technique</div>')[0];
+                popup_5722f2cb1d4b4b1d8afb816dbeb68da2.setContent(html_5b9dd1570f644842b6dc0f8b2df3144e);
+            
+
+            circle_marker_02bd2d6589124bf9a501125399d20f6b.bindPopup(popup_5722f2cb1d4b4b1d8afb816dbeb68da2);
+
+            
+        
+    
+            var circle_marker_8f187d2c13044519a9d28f014106e9f8 = L.circleMarker(
+                [48.580042,7.715663],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#0A8A9F",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#0A8A9F",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_30a94ac6e93246ccaf6d47afb097b5f7);
+            
+    
+            var popup_d2f8cd0af2a64e4eaa87f445ec6f4213 = L.popup({maxWidth: '300'});
+
+            
+                var html_59958d6cefaa4570a136e9957f19be5b = $('<div id="html_59958d6cefaa4570a136e9957f19be5b" style="width: 100.0%; height: 100.0%;"><center><strong>garage bureau de police de koenigshoffen </strong></center><br> <b>Ministere:</b> Intrieur<br>             <b>Fonction:</b> Btiment technique</div>')[0];
+                popup_d2f8cd0af2a64e4eaa87f445ec6f4213.setContent(html_59958d6cefaa4570a136e9957f19be5b);
+            
+
+            circle_marker_8f187d2c13044519a9d28f014106e9f8.bindPopup(popup_d2f8cd0af2a64e4eaa87f445ec6f4213);
+
+            
+        
+    
+            var circle_marker_114013a0809f4dec8701497a3736e49d = L.circleMarker(
+                [48.576555,7.734077],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#0A8A9F",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#0A8A9F",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_30a94ac6e93246ccaf6d47afb097b5f7);
+            
+    
+            var popup_ce6eb232fe85471d8f896ec07c637469 = L.popup({maxWidth: '300'});
+
+            
+                var html_5c892b741faa44708328e48624c23082 = $('<div id="html_5c892b741faa44708328e48624c23082" style="width: 100.0%; height: 100.0%;"><center><strong>depot ingredients </strong></center><br> <b>Ministere:</b> Intrieur<br>             <b>Fonction:</b> Btiment technique</div>')[0];
+                popup_ce6eb232fe85471d8f896ec07c637469.setContent(html_5c892b741faa44708328e48624c23082);
+            
+
+            circle_marker_114013a0809f4dec8701497a3736e49d.bindPopup(popup_ce6eb232fe85471d8f896ec07c637469);
+
+            
+        
+    
+            var circle_marker_a69c9ea281b049fba86598756cec1ba7 = L.circleMarker(
+                [48.574932,7.7336490000000015],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#0A8A9F",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#0A8A9F",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_30a94ac6e93246ccaf6d47afb097b5f7);
+            
+    
+            var popup_045a0d636e784cf5abe72f41b87f0c65 = L.popup({maxWidth: '300'});
+
+            
+                var html_68f816881eb345c28f0c9a85a71f847a = $('<div id="html_68f816881eb345c28f0c9a85a71f847a" style="width: 100.0%; height: 100.0%;"><center><strong>garage marcot sud </strong></center><br> <b>Ministere:</b> Intrieur<br>             <b>Fonction:</b> Btiment technique</div>')[0];
+                popup_045a0d636e784cf5abe72f41b87f0c65.setContent(html_68f816881eb345c28f0c9a85a71f847a);
+            
+
+            circle_marker_a69c9ea281b049fba86598756cec1ba7.bindPopup(popup_045a0d636e784cf5abe72f41b87f0c65);
+
+            
+        
+    
+            var circle_marker_3ff9d0ce2e8046cbab146ffe48c39237 = L.circleMarker(
+                [48.576555,7.734077],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#0A8A9F",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#0A8A9F",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_30a94ac6e93246ccaf6d47afb097b5f7);
+            
+    
+            var popup_3a4ecae127674b1d8552266abded57e4 = L.popup({maxWidth: '300'});
+
+            
+                var html_c656865226eb4c2eaad8db45b4860a1b = $('<div id="html_c656865226eb4c2eaad8db45b4860a1b" style="width: 100.0%; height: 100.0%;"><center><strong>garages </strong></center><br> <b>Ministere:</b> Intrieur<br>             <b>Fonction:</b> Garage</div>')[0];
+                popup_3a4ecae127674b1d8552266abded57e4.setContent(html_c656865226eb4c2eaad8db45b4860a1b);
+            
+
+            circle_marker_3ff9d0ce2e8046cbab146ffe48c39237.bindPopup(popup_3a4ecae127674b1d8552266abded57e4);
+
+            
+        
+    
+            var circle_marker_18b312d7b1ca4d268ef78ca00b4b6e81 = L.circleMarker(
+                [48.576555,7.734077],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#0A8A9F",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#0A8A9F",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_30a94ac6e93246ccaf6d47afb097b5f7);
+            
+    
+            var popup_333e9be4fadb4ebf89a5793fbd1f3a44 = L.popup({maxWidth: '300'});
+
+            
+                var html_e7e883485e6448e4bb285fadca5c8871 = $('<div id="html_e7e883485e6448e4bb285fadca5c8871" style="width: 100.0%; height: 100.0%;"><center><strong>garage </strong></center><br> <b>Ministere:</b> Intrieur<br>             <b>Fonction:</b> Gendarmerie</div>')[0];
+                popup_333e9be4fadb4ebf89a5793fbd1f3a44.setContent(html_e7e883485e6448e4bb285fadca5c8871);
+            
+
+            circle_marker_18b312d7b1ca4d268ef78ca00b4b6e81.bindPopup(popup_333e9be4fadb4ebf89a5793fbd1f3a44);
+
+            
+        
+    
+            var circle_marker_47bf918750e340cdbc32d8777e795e15 = L.circleMarker(
+                [48.576555,7.734077],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#0A8A9F",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#0A8A9F",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_30a94ac6e93246ccaf6d47afb097b5f7);
+            
+    
+            var popup_16c4bf3a5ee646eca7e647d9709f0fe1 = L.popup({maxWidth: '300'});
+
+            
+                var html_4c8d18ac74a8498aaec695df22b71fd0 = $('<div id="html_4c8d18ac74a8498aaec695df22b71fd0" style="width: 100.0%; height: 100.0%;"><center><strong>senarmont </strong></center><br> <b>Ministere:</b> Intrieur<br>             <b>Fonction:</b> Gendarmerie</div>')[0];
+                popup_16c4bf3a5ee646eca7e647d9709f0fe1.setContent(html_4c8d18ac74a8498aaec695df22b71fd0);
+            
+
+            circle_marker_47bf918750e340cdbc32d8777e795e15.bindPopup(popup_16c4bf3a5ee646eca7e647d9709f0fe1);
+
+            
+        
+    
+            var circle_marker_ee47905404e84fa5b67c4a3601b7456f = L.circleMarker(
+                [48.580032,7.735349],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#0A8A9F",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#0A8A9F",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_30a94ac6e93246ccaf6d47afb097b5f7);
+            
+    
+            var popup_e022baed0f7f402fb01f328dc0f17eb1 = L.popup({maxWidth: '300'});
+
+            
+                var html_cdd012e158d44e419703e836684c5576 = $('<div id="html_cdd012e158d44e419703e836684c5576" style="width: 100.0%; height: 100.0%;"><center><strong>batiment administratif </strong></center><br> <b>Ministere:</b> Intrieur<br>             <b>Fonction:</b> Gendarmerie</div>')[0];
+                popup_e022baed0f7f402fb01f328dc0f17eb1.setContent(html_cdd012e158d44e419703e836684c5576);
+            
+
+            circle_marker_ee47905404e84fa5b67c4a3601b7456f.bindPopup(popup_e022baed0f7f402fb01f328dc0f17eb1);
+
+            
+        
+    
+            var circle_marker_aab654bd19284bf58dcef5e399c20a99 = L.circleMarker(
+                [48.576555,7.734077],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#0A8A9F",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#0A8A9F",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_30a94ac6e93246ccaf6d47afb097b5f7);
+            
+    
+            var popup_dcc6176ac07345babf771f07557e3af0 = L.popup({maxWidth: '300'});
+
+            
+                var html_e673ebce25a64d268f7c776f2d6f0157 = $('<div id="html_e673ebce25a64d268f7c776f2d6f0157" style="width: 100.0%; height: 100.0%;"><center><strong>senarmont </strong></center><br> <b>Ministere:</b> Intrieur<br>             <b>Fonction:</b> Gendarmerie</div>')[0];
+                popup_dcc6176ac07345babf771f07557e3af0.setContent(html_e673ebce25a64d268f7c776f2d6f0157);
+            
+
+            circle_marker_aab654bd19284bf58dcef5e399c20a99.bindPopup(popup_dcc6176ac07345babf771f07557e3af0);
+
+            
+        
+    
+            var circle_marker_c677171dda3a4968a5c33c021ccce0a0 = L.circleMarker(
+                [48.574932,7.7336490000000015],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#0A8A9F",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#0A8A9F",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_30a94ac6e93246ccaf6d47afb097b5f7);
+            
+    
+            var popup_974b60fee5d84fe790460a20da756274 = L.popup({maxWidth: '300'});
+
+            
+                var html_27317bd4a31e4a278d11ae2d594e475d = $('<div id="html_27317bd4a31e4a278d11ae2d594e475d" style="width: 100.0%; height: 100.0%;"><center><strong>marcot sud </strong></center><br> <b>Ministere:</b> Intrieur<br>             <b>Fonction:</b> Gendarmerie</div>')[0];
+                popup_974b60fee5d84fe790460a20da756274.setContent(html_27317bd4a31e4a278d11ae2d594e475d);
+            
+
+            circle_marker_c677171dda3a4968a5c33c021ccce0a0.bindPopup(popup_974b60fee5d84fe790460a20da756274);
+
+            
+        
+    
+            var circle_marker_0e4abf83f8844581b054c69ed6e3efc5 = L.circleMarker(
+                [48.574932,7.7336490000000015],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#0A8A9F",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#0A8A9F",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_30a94ac6e93246ccaf6d47afb097b5f7);
+            
+    
+            var popup_42dc94ed24da45bd85d416781dfeea90 = L.popup({maxWidth: '300'});
+
+            
+                var html_b438fde9ab1642f48a183298bc4fbfdf = $('<div id="html_b438fde9ab1642f48a183298bc4fbfdf" style="width: 100.0%; height: 100.0%;"><center><strong>marcot sud </strong></center><br> <b>Ministere:</b> Intrieur<br>             <b>Fonction:</b> Gendarmerie</div>')[0];
+                popup_42dc94ed24da45bd85d416781dfeea90.setContent(html_b438fde9ab1642f48a183298bc4fbfdf);
+            
+
+            circle_marker_0e4abf83f8844581b054c69ed6e3efc5.bindPopup(popup_42dc94ed24da45bd85d416781dfeea90);
+
+            
+        
+    
+            var circle_marker_7b4416426c95489e83fa3093d2e50296 = L.circleMarker(
+                [48.576555,7.734077],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#0A8A9F",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#0A8A9F",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_30a94ac6e93246ccaf6d47afb097b5f7);
+            
+    
+            var popup_eb4ae2669a5a4326964a6a2178a728b6 = L.popup({maxWidth: '300'});
+
+            
+                var html_9eae36b9ef034221b6c97a0c64dc1e6c = $('<div id="html_9eae36b9ef034221b6c97a0c64dc1e6c" style="width: 100.0%; height: 100.0%;"><center><strong>senarmont </strong></center><br> <b>Ministere:</b> Intrieur<br>             <b>Fonction:</b> Gendarmerie</div>')[0];
+                popup_eb4ae2669a5a4326964a6a2178a728b6.setContent(html_9eae36b9ef034221b6c97a0c64dc1e6c);
+            
+
+            circle_marker_7b4416426c95489e83fa3093d2e50296.bindPopup(popup_eb4ae2669a5a4326964a6a2178a728b6);
+
+            
+        
+    
+            var circle_marker_0b44167731764cfdade146c309c3b437 = L.circleMarker(
+                [48.576555,7.734077],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#0A8A9F",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#0A8A9F",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_30a94ac6e93246ccaf6d47afb097b5f7);
+            
+    
+            var popup_056568c68d3e4bdeb910cb218cf849c4 = L.popup({maxWidth: '300'});
+
+            
+                var html_b01fff9a9a794b119865b96d8607307b = $('<div id="html_b01fff9a9a794b119865b96d8607307b" style="width: 100.0%; height: 100.0%;"><center><strong>senarmont </strong></center><br> <b>Ministere:</b> Intrieur<br>             <b>Fonction:</b> Gendarmerie</div>')[0];
+                popup_056568c68d3e4bdeb910cb218cf849c4.setContent(html_b01fff9a9a794b119865b96d8607307b);
+            
+
+            circle_marker_0b44167731764cfdade146c309c3b437.bindPopup(popup_056568c68d3e4bdeb910cb218cf849c4);
+
+            
+        
+    
+            var circle_marker_6cec549a5e774c9d998fcae47215f1b0 = L.circleMarker(
+                [48.574932,7.7336490000000015],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#0A8A9F",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#0A8A9F",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_30a94ac6e93246ccaf6d47afb097b5f7);
+            
+    
+            var popup_17c65899089547d9bb83a0685c5a9eaf = L.popup({maxWidth: '300'});
+
+            
+                var html_e7de83a739534904a6ba39220f1c4a8e = $('<div id="html_e7de83a739534904a6ba39220f1c4a8e" style="width: 100.0%; height: 100.0%;"><center><strong>marcot sud </strong></center><br> <b>Ministere:</b> Intrieur<br>             <b>Fonction:</b> Gendarmerie</div>')[0];
+                popup_17c65899089547d9bb83a0685c5a9eaf.setContent(html_e7de83a739534904a6ba39220f1c4a8e);
+            
+
+            circle_marker_6cec549a5e774c9d998fcae47215f1b0.bindPopup(popup_17c65899089547d9bb83a0685c5a9eaf);
+
+            
+        
+    
+            var circle_marker_40d962abee6e43558f7fe07be9d79d84 = L.circleMarker(
+                [48.580042,7.715663],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#0A8A9F",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#0A8A9F",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_30a94ac6e93246ccaf6d47afb097b5f7);
+            
+    
+            var popup_284937358e6c44868d2fccba896839cb = L.popup({maxWidth: '300'});
+
+            
+                var html_f440f358077540528cbf277b6b02af13 = $('<div id="html_f440f358077540528cbf277b6b02af13" style="width: 100.0%; height: 100.0%;"><center><strong>bureau de police de koenigshoffen </strong></center><br> <b>Ministere:</b> Intrieur<br>             <b>Fonction:</b> Immeuble de bureaux</div>')[0];
+                popup_284937358e6c44868d2fccba896839cb.setContent(html_f440f358077540528cbf277b6b02af13);
+            
+
+            circle_marker_40d962abee6e43558f7fe07be9d79d84.bindPopup(popup_284937358e6c44868d2fccba896839cb);
+
+            
+        
+    
+            var circle_marker_09182d24eaba4eaaad5a6e99301641cd = L.circleMarker(
+                [48.610845,7.782414],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#0A8A9F",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#0A8A9F",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_30a94ac6e93246ccaf6d47afb097b5f7);
+            
+    
+            var popup_54e7cfcf6dc5417ba11ac2969181e30a = L.popup({maxWidth: '300'});
+
+            
+                var html_1fed81fcfa084cfdb9686b8d1ae17e28 = $('<div id="html_1fed81fcfa084cfdb9686b8d1ae17e28" style="width: 100.0%; height: 100.0%;"><center><strong>bureau de police </strong></center><br> <b>Ministere:</b> Intrieur<br>             <b>Fonction:</b> Immeuble de bureaux</div>')[0];
+                popup_54e7cfcf6dc5417ba11ac2969181e30a.setContent(html_1fed81fcfa084cfdb9686b8d1ae17e28);
+            
+
+            circle_marker_09182d24eaba4eaaad5a6e99301641cd.bindPopup(popup_54e7cfcf6dc5417ba11ac2969181e30a);
+
+            
+        
+    
+            var circle_marker_fd28b22e06654ec7b3c7286278894914 = L.circleMarker(
+                [48.617676,7.78722],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#0A8A9F",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#0A8A9F",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_30a94ac6e93246ccaf6d47afb097b5f7);
+            
+    
+            var popup_1eca43bd4e01461ea5856e0975b7898d = L.popup({maxWidth: '300'});
+
+            
+                var html_6973a7cae32c4effb087272f2f0c16ab = $('<div id="html_6973a7cae32c4effb087272f2f0c16ab" style="width: 100.0%; height: 100.0%;"><center><strong>section recherches psig </strong></center><br> <b>Ministere:</b> Intrieur<br>             <b>Fonction:</b> Immeuble de bureaux</div>')[0];
+                popup_1eca43bd4e01461ea5856e0975b7898d.setContent(html_6973a7cae32c4effb087272f2f0c16ab);
+            
+
+            circle_marker_fd28b22e06654ec7b3c7286278894914.bindPopup(popup_1eca43bd4e01461ea5856e0975b7898d);
+
+            
+        
+    
+            var circle_marker_968c9ab23ae94497b436590d1b506742 = L.circleMarker(
+                [48.587822,7.754992],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#0A8A9F",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#0A8A9F",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_30a94ac6e93246ccaf6d47afb097b5f7);
+            
+    
+            var popup_5768ef0b7c8b407dbc4ad48d3caca07b = L.popup({maxWidth: '300'});
+
+            
+                var html_8e649c5d42a544609902e6d63aed79bb = $('<div id="html_8e649c5d42a544609902e6d63aed79bb" style="width: 100.0%; height: 100.0%;"><center><strong>prfecture du bas-rhin (ministere est) </strong></center><br> <b>Ministere:</b> Intrieur<br>             <b>Fonction:</b> Prfecture</div>')[0];
+                popup_5768ef0b7c8b407dbc4ad48d3caca07b.setContent(html_8e649c5d42a544609902e6d63aed79bb);
+            
+
+            circle_marker_968c9ab23ae94497b436590d1b506742.bindPopup(popup_5768ef0b7c8b407dbc4ad48d3caca07b);
+
+            
+        
+    
+            var circle_marker_433299dfe9a54608bd96a76846dd1f4f = L.circleMarker(
+                [48.60488400000001,7.7692960000000015],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#0A8A9F",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#0A8A9F",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_30a94ac6e93246ccaf6d47afb097b5f7);
+            
+    
+            var popup_5c42a7c61917473f85031e6024629fdf = L.popup({maxWidth: '300'});
+
+            
+                var html_13f717e4e2e14a95b9f69b97fe9c28fb = $('<div id="html_13f717e4e2e14a95b9f69b97fe9c28fb" style="width: 100.0%; height: 100.0%;"><center><strong>station service et lavage vhicules crs 37 </strong></center><br> <b>Ministere:</b> Intrieur<br>             <b>Fonction:</b> Aire de lavage</div>')[0];
+                popup_5c42a7c61917473f85031e6024629fdf.setContent(html_13f717e4e2e14a95b9f69b97fe9c28fb);
+            
+
+            circle_marker_433299dfe9a54608bd96a76846dd1f4f.bindPopup(popup_5c42a7c61917473f85031e6024629fdf);
+
+            
+        
+    
+            var circle_marker_91835538ec294a0386044bc71871d373 = L.circleMarker(
+                [48.574932,7.7336490000000015],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#0A8A9F",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#0A8A9F",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_30a94ac6e93246ccaf6d47afb097b5f7);
+            
+    
+            var popup_4f2b3d898c4b47e39b21813131772f08 = L.popup({maxWidth: '300'});
+
+            
+                var html_8cca7833b0f24af0bb8825d111709246 = $('<div id="html_8cca7833b0f24af0bb8825d111709246" style="width: 100.0%; height: 100.0%;"><center><strong>aire stat. vh. (parking) marcot sud </strong></center><br> <b>Ministere:</b> Intrieur<br>             <b>Fonction:</b> Aire de stationnement</div>')[0];
+                popup_4f2b3d898c4b47e39b21813131772f08.setContent(html_8cca7833b0f24af0bb8825d111709246);
+            
+
+            circle_marker_91835538ec294a0386044bc71871d373.bindPopup(popup_4f2b3d898c4b47e39b21813131772f08);
+
+            
+        
+    
+            var circle_marker_4e9abdf5820f4c48ac682cfbaaf04494 = L.circleMarker(
+                [48.574932,7.7336490000000015],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#0A8A9F",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#0A8A9F",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_30a94ac6e93246ccaf6d47afb097b5f7);
+            
+    
+            var popup_747138b052cc44c69cae28b819267bd7 = L.popup({maxWidth: '300'});
+
+            
+                var html_de97bbc966de46318cc3eff47324258f = $('<div id="html_de97bbc966de46318cc3eff47324258f" style="width: 100.0%; height: 100.0%;"><center><strong>cour de service marcot sud </strong></center><br> <b>Ministere:</b> Intrieur<br>             <b>Fonction:</b> Aire de stationnement</div>')[0];
+                popup_747138b052cc44c69cae28b819267bd7.setContent(html_de97bbc966de46318cc3eff47324258f);
+            
+
+            circle_marker_4e9abdf5820f4c48ac682cfbaaf04494.bindPopup(popup_747138b052cc44c69cae28b819267bd7);
+
+            
+        
+    
+            var circle_marker_ef0867193cc549df9e0d2576f2dbbc5e = L.circleMarker(
+                [48.580032,7.735349],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#0A8A9F",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#0A8A9F",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_30a94ac6e93246ccaf6d47afb097b5f7);
+            
+    
+            var popup_802f3b682a734b37988313f5b72f0507 = L.popup({maxWidth: '300'});
+
+            
+                var html_8904b295969544aaa10536db91654a86 = $('<div id="html_8904b295969544aaa10536db91654a86" style="width: 100.0%; height: 100.0%;"><center><strong>aire de stationnement </strong></center><br> <b>Ministere:</b> Intrieur<br>             <b>Fonction:</b> Aire de stationnement</div>')[0];
+                popup_802f3b682a734b37988313f5b72f0507.setContent(html_8904b295969544aaa10536db91654a86);
+            
+
+            circle_marker_ef0867193cc549df9e0d2576f2dbbc5e.bindPopup(popup_802f3b682a734b37988313f5b72f0507);
+
+            
+        
+    
+            var circle_marker_aa23157401fb490eb53c51e3569fdd93 = L.circleMarker(
+                [48.60488400000001,7.7692960000000015],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#0A8A9F",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#0A8A9F",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_30a94ac6e93246ccaf6d47afb097b5f7);
+            
+    
+            var popup_055e90f9983245bebbb5f93c917d37be = L.popup({maxWidth: '300'});
+
+            
+                var html_c24b1fdc202c42a49219e2b946c7d2a4 = $('<div id="html_c24b1fdc202c42a49219e2b946c7d2a4" style="width: 100.0%; height: 100.0%;"><center><strong>terrains de tennis et parkings crs 37 </strong></center><br> <b>Ministere:</b> Intrieur<br>             <b>Fonction:</b> Aire de stationnement</div>')[0];
+                popup_055e90f9983245bebbb5f93c917d37be.setContent(html_c24b1fdc202c42a49219e2b946c7d2a4);
+            
+
+            circle_marker_aa23157401fb490eb53c51e3569fdd93.bindPopup(popup_055e90f9983245bebbb5f93c917d37be);
+
+            
+        
+    
+            var circle_marker_c329a0e51e954a9191e18373e4c4a23c = L.circleMarker(
+                [48.610845,7.782414],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#0A8A9F",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#0A8A9F",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_30a94ac6e93246ccaf6d47afb097b5f7);
+            
+    
+            var popup_b2404b3e86f24351a2287024ab0db531 = L.popup({maxWidth: '300'});
+
+            
+                var html_950a0440a9934b1fbec2d1ece7402ad0 = $('<div id="html_950a0440a9934b1fbec2d1ece7402ad0" style="width: 100.0%; height: 100.0%;"><center><strong>garage - bureau de police de la robertsau </strong></center><br> <b>Ministere:</b> Intrieur<br>             <b>Fonction:</b> Aire de stationnement</div>')[0];
+                popup_b2404b3e86f24351a2287024ab0db531.setContent(html_950a0440a9934b1fbec2d1ece7402ad0);
+            
+
+            circle_marker_c329a0e51e954a9191e18373e4c4a23c.bindPopup(popup_b2404b3e86f24351a2287024ab0db531);
+
+            
+        
+    
+            var circle_marker_663c56d79f40437cad223696afcc5ee2 = L.circleMarker(
+                [48.576555,7.734077],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#0A8A9F",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#0A8A9F",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_30a94ac6e93246ccaf6d47afb097b5f7);
+            
+    
+            var popup_364c55d4f40d4599b471ff89b58c1796 = L.popup({maxWidth: '300'});
+
+            
+                var html_f7528356527146c695a45a0d88cdfac2 = $('<div id="html_f7528356527146c695a45a0d88cdfac2" style="width: 100.0%; height: 100.0%;"><center><strong>cour de service </strong></center><br> <b>Ministere:</b> Intrieur<br>             <b>Fonction:</b> Aire de stationnement</div>')[0];
+                popup_364c55d4f40d4599b471ff89b58c1796.setContent(html_f7528356527146c695a45a0d88cdfac2);
+            
+
+            circle_marker_663c56d79f40437cad223696afcc5ee2.bindPopup(popup_364c55d4f40d4599b471ff89b58c1796);
+
+            
+        
+    
+            var circle_marker_5d8a776283d547f5b37039e8b0abc8f0 = L.circleMarker(
+                [48.576555,7.734077],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#0A8A9F",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#0A8A9F",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_30a94ac6e93246ccaf6d47afb097b5f7);
+            
+    
+            var popup_9cd14e409a8f476aadeae9b8a8d988f1 = L.popup({maxWidth: '300'});
+
+            
+                var html_dd767d58f0384d48ba5f23fbffc0a445 = $('<div id="html_dd767d58f0384d48ba5f23fbffc0a445" style="width: 100.0%; height: 100.0%;"><center><strong>aire de stationnement </strong></center><br> <b>Ministere:</b> Intrieur<br>             <b>Fonction:</b> Aire de stationnement</div>')[0];
+                popup_9cd14e409a8f476aadeae9b8a8d988f1.setContent(html_dd767d58f0384d48ba5f23fbffc0a445);
+            
+
+            circle_marker_5d8a776283d547f5b37039e8b0abc8f0.bindPopup(popup_9cd14e409a8f476aadeae9b8a8d988f1);
+
+            
+        
+    
+            var circle_marker_8397cdccf1444836945a6689cf89770b = L.circleMarker(
+                [48.565855,7.762917999999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#0A8A9F",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#0A8A9F",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_30a94ac6e93246ccaf6d47afb097b5f7);
+            
+    
+            var popup_96c2d23acd0e4d088d6c4c8c3128972b = L.popup({maxWidth: '300'});
+
+            
+                var html_a9a2db9569f2409abafca0ebeb11ae58 = $('<div id="html_a9a2db9569f2409abafca0ebeb11ae58" style="width: 100.0%; height: 100.0%;"><center><strong>garage - bureau de police de neudorf </strong></center><br> <b>Ministere:</b> Intrieur<br>             <b>Fonction:</b> Aire de stationnement</div>')[0];
+                popup_96c2d23acd0e4d088d6c4c8c3128972b.setContent(html_a9a2db9569f2409abafca0ebeb11ae58);
+            
+
+            circle_marker_8397cdccf1444836945a6689cf89770b.bindPopup(popup_96c2d23acd0e4d088d6c4c8c3128972b);
+
+            
+        
+    
+            var circle_marker_65638ce177284fbfa7e12399809ee053 = L.circleMarker(
+                [48.580032,7.735349],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#0A8A9F",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#0A8A9F",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_30a94ac6e93246ccaf6d47afb097b5f7);
+            
+    
+            var popup_8ebf395ed42d422faf7ef55240541b8f = L.popup({maxWidth: '300'});
+
+            
+                var html_ff4e7195849c4e46aa2526cec8bebff7 = $('<div id="html_ff4e7195849c4e46aa2526cec8bebff7" style="width: 100.0%; height: 100.0%;"><center><strong>esp. verts et amnages </strong></center><br> <b>Ministere:</b> Intrieur<br>             <b>Fonction:</b> Terrain de jeux ou de loisirs</div>')[0];
+                popup_8ebf395ed42d422faf7ef55240541b8f.setContent(html_ff4e7195849c4e46aa2526cec8bebff7);
+            
+
+            circle_marker_65638ce177284fbfa7e12399809ee053.bindPopup(popup_8ebf395ed42d422faf7ef55240541b8f);
+
+            
+        
+    
+            var circle_marker_c9f0dcaa69b24d258cbdbae366d005a1 = L.circleMarker(
+                [48.576555,7.734077],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#0A8A9F",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#0A8A9F",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_30a94ac6e93246ccaf6d47afb097b5f7);
+            
+    
+            var popup_7147333565ce402189c55791df8ab02f = L.popup({maxWidth: '300'});
+
+            
+                var html_908edd78844f4fef93849a4a815f2f82 = $('<div id="html_908edd78844f4fef93849a4a815f2f82" style="width: 100.0%; height: 100.0%;"><center><strong>terrain de sport </strong></center><br> <b>Ministere:</b> Intrieur<br>             <b>Fonction:</b> Terrain de jeux ou de loisirs</div>')[0];
+                popup_7147333565ce402189c55791df8ab02f.setContent(html_908edd78844f4fef93849a4a815f2f82);
+            
+
+            circle_marker_c9f0dcaa69b24d258cbdbae366d005a1.bindPopup(popup_7147333565ce402189c55791df8ab02f);
+
+            
+        
+    
+            var circle_marker_3202e0f17a034e75a7cc0cf645d1a405 = L.circleMarker(
+                [48.576555,7.734077],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#0A8A9F",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#0A8A9F",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_30a94ac6e93246ccaf6d47afb097b5f7);
+            
+    
+            var popup_2296f2ca13a6400c8de01c79db545f6f = L.popup({maxWidth: '300'});
+
+            
+                var html_3c7d2453c7c641358e2a3eeff3a585e7 = $('<div id="html_3c7d2453c7c641358e2a3eeff3a585e7" style="width: 100.0%; height: 100.0%;"><center><strong>espace verts </strong></center><br> <b>Ministere:</b> Intrieur<br>             <b>Fonction:</b> Terrain de jeux ou de loisirs</div>')[0];
+                popup_2296f2ca13a6400c8de01c79db545f6f.setContent(html_3c7d2453c7c641358e2a3eeff3a585e7);
+            
+
+            circle_marker_3202e0f17a034e75a7cc0cf645d1a405.bindPopup(popup_2296f2ca13a6400c8de01c79db545f6f);
+
+            
+        
+    
+            var circle_marker_fc13d07e6c344610ad45593a7411e9d4 = L.circleMarker(
+                [48.574932,7.7336490000000015],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#0A8A9F",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#0A8A9F",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_30a94ac6e93246ccaf6d47afb097b5f7);
+            
+    
+            var popup_40408e39bb1b43b8a297699b6549088b = L.popup({maxWidth: '300'});
+
+            
+                var html_b536a85611344910b3a81e18b5c9cdd9 = $('<div id="html_b536a85611344910b3a81e18b5c9cdd9" style="width: 100.0%; height: 100.0%;"><center><strong>esp. verts et amnags  marcot sud </strong></center><br> <b>Ministere:</b> Intrieur<br>             <b>Fonction:</b> Terrain de jeux ou de loisirs</div>')[0];
+                popup_40408e39bb1b43b8a297699b6549088b.setContent(html_b536a85611344910b3a81e18b5c9cdd9);
+            
+
+            circle_marker_fc13d07e6c344610ad45593a7411e9d4.bindPopup(popup_40408e39bb1b43b8a297699b6549088b);
+
+            
+        
+    
+            var circle_marker_586b9bc492ae4937841b3cfdb217b89d = L.circleMarker(
+                [48.580032,7.735349],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#0A8A9F",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#0A8A9F",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_30a94ac6e93246ccaf6d47afb097b5f7);
+            
+    
+            var popup_703a27682e6c42159a25bd3b079c70fd = L.popup({maxWidth: '300'});
+
+            
+                var html_ee16f9d4adcb4e5998d66ff5caf52fe9 = $('<div id="html_ee16f9d4adcb4e5998d66ff5caf52fe9" style="width: 100.0%; height: 100.0%;"><center><strong>terrain donn  bail emphy.  sibar </strong></center><br> <b>Ministere:</b> Intrieur<br>             <b>Fonction:</b> Terrain en friche</div>')[0];
+                popup_703a27682e6c42159a25bd3b079c70fd.setContent(html_ee16f9d4adcb4e5998d66ff5caf52fe9);
+            
+
+            circle_marker_586b9bc492ae4937841b3cfdb217b89d.bindPopup(popup_703a27682e6c42159a25bd3b079c70fd);
+
+            
+        
+    
+            var circle_marker_107bea2e2039441f8d41f4539a26d0bb = L.circleMarker(
+                [48.574836,7.718369],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#CDD2DB",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#CDD2DB",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_30a94ac6e93246ccaf6d47afb097b5f7);
+            
+    
+            var popup_dfebde4bc8ba48fa9db60aa838a4ae5f = L.popup({maxWidth: '300'});
+
+            
+                var html_799d4ca982344ef295ec20545b0d98d2 = $('<div id="html_799d4ca982344ef295ec20545b0d98d2" style="width: 100.0%; height: 100.0%;"><center><strong>uehc strasbourg </strong></center><br> <b>Ministere:</b> Justice<br>             <b>Fonction:</b> Bt. social avec hbergement</div>')[0];
+                popup_dfebde4bc8ba48fa9db60aa838a4ae5f.setContent(html_799d4ca982344ef295ec20545b0d98d2);
+            
+
+            circle_marker_107bea2e2039441f8d41f4539a26d0bb.bindPopup(popup_dfebde4bc8ba48fa9db60aa838a4ae5f);
+
+            
+        
+    
+            var circle_marker_d94cd955e156440d8caac4dce6fb8aa2 = L.circleMarker(
+                [48.574836,7.718369],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#CDD2DB",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#CDD2DB",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_30a94ac6e93246ccaf6d47afb097b5f7);
+            
+    
+            var popup_e20215e4247a4b649c37c7a4ecc9e294 = L.popup({maxWidth: '300'});
+
+            
+                var html_56251d8637b4441ab0c146590ac2a628 = $('<div id="html_56251d8637b4441ab0c146590ac2a628" style="width: 100.0%; height: 100.0%;"><center><strong>uehc strasbourg </strong></center><br> <b>Ministere:</b> Justice<br>             <b>Fonction:</b> Bt. social avec hbergement</div>')[0];
+                popup_e20215e4247a4b649c37c7a4ecc9e294.setContent(html_56251d8637b4441ab0c146590ac2a628);
+            
+
+            circle_marker_d94cd955e156440d8caac4dce6fb8aa2.bindPopup(popup_e20215e4247a4b649c37c7a4ecc9e294);
+
+            
+        
+    
+            var circle_marker_bca292dceb97497eba3e14d79a428d80 = L.circleMarker(
+                [48.590418,7.743619],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#CDD2DB",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#CDD2DB",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_30a94ac6e93246ccaf6d47afb097b5f7);
+            
+    
+            var popup_7b32b2a28fb64ba3910d531914e27ae6 = L.popup({maxWidth: '300'});
+
+            
+                var html_0e37cbdb30ab4b58b7bf29321d4614e4 = $('<div id="html_0e37cbdb30ab4b58b7bf29321d4614e4" style="width: 100.0%; height: 100.0%;"><center><strong>dirpjj grand est </strong></center><br> <b>Ministere:</b> Justice<br>             <b>Fonction:</b> Immeuble de bureaux</div>')[0];
+                popup_7b32b2a28fb64ba3910d531914e27ae6.setContent(html_0e37cbdb30ab4b58b7bf29321d4614e4);
+            
+
+            circle_marker_bca292dceb97497eba3e14d79a428d80.bindPopup(popup_7b32b2a28fb64ba3910d531914e27ae6);
+
+            
+        
+    
+            var circle_marker_4b1d496c00784b10803e12d768849f9f = L.circleMarker(
+                [48.587333,7.747495],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#CDD2DB",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#CDD2DB",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_30a94ac6e93246ccaf6d47afb097b5f7);
+            
+    
+            var popup_c5369a867c25487caa1fb662febbe366 = L.popup({maxWidth: '300'});
+
+            
+                var html_90ffa35618a6476994816716e638136c = $('<div id="html_90ffa35618a6476994816716e638136c" style="width: 100.0%; height: 100.0%;"><center><strong>tribunal de grande instance de strasbourg </strong></center><br> <b>Ministere:</b> Justice<br>             <b>Fonction:</b> Tribunal</div>')[0];
+                popup_c5369a867c25487caa1fb662febbe366.setContent(html_90ffa35618a6476994816716e638136c);
+            
+
+            circle_marker_4b1d496c00784b10803e12d768849f9f.bindPopup(popup_c5369a867c25487caa1fb662febbe366);
+
+            
+        
+    
+            var circle_marker_0274effe1aa94b6c9893b4ff32bbef40 = L.circleMarker(
+                [48.582414,7.743425],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#CDD2DB",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#CDD2DB",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_30a94ac6e93246ccaf6d47afb097b5f7);
+            
+    
+            var popup_097d27d9364e43769857d2bdf596f5ec = L.popup({maxWidth: '300'});
+
+            
+                var html_3875b795b023431dabc7f3c5e35e71d9 = $('<div id="html_3875b795b023431dabc7f3c5e35e71d9" style="width: 100.0%; height: 100.0%;"><center><strong>tribunal d instance de strasbourg </strong></center><br> <b>Ministere:</b> Justice<br>             <b>Fonction:</b> Tribunal</div>')[0];
+                popup_097d27d9364e43769857d2bdf596f5ec.setContent(html_3875b795b023431dabc7f3c5e35e71d9);
+            
+
+            circle_marker_0274effe1aa94b6c9893b4ff32bbef40.bindPopup(popup_097d27d9364e43769857d2bdf596f5ec);
+
+            
+        
+    
+            var circle_marker_1e4f910f0ff14be29b6d7f4cc029832f = L.circleMarker(
+                [48.589834,7.755428],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#CDD2DB",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#CDD2DB",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_30a94ac6e93246ccaf6d47afb097b5f7);
+            
+    
+            var popup_5f93e65175464bd9b3e128ca14186ad6 = L.popup({maxWidth: '300'});
+
+            
+                var html_bc916c978eb84cc39156a009421a7f0f = $('<div id="html_bc916c978eb84cc39156a009421a7f0f" style="width: 100.0%; height: 100.0%;"><center><strong>conseil de prud hommes de strasbourg </strong></center><br> <b>Ministere:</b> Justice<br>             <b>Fonction:</b> Tribunal</div>')[0];
+                popup_5f93e65175464bd9b3e128ca14186ad6.setContent(html_bc916c978eb84cc39156a009421a7f0f);
+            
+
+            circle_marker_1e4f910f0ff14be29b6d7f4cc029832f.bindPopup(popup_5f93e65175464bd9b3e128ca14186ad6);
+
+            
+        
+    
+            var circle_marker_f020d50987934187b369fb80f5ddec29 = L.circleMarker(
+                [48.566692,7.730638000000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#CDD2DB",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#CDD2DB",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_30a94ac6e93246ccaf6d47afb097b5f7);
+            
+    
+            var popup_261b49a5d3c8424a9a93ea6f5653e2f6 = L.popup({maxWidth: '300'});
+
+            
+                var html_a062aa513b5c45e39672304b35bd1b35 = $('<div id="html_a062aa513b5c45e39672304b35bd1b35" style="width: 100.0%; height: 100.0%;"><center><strong>terrain d assiette </strong></center><br> <b>Ministere:</b> Justice<br>             <b>Fonction:</b> Inconnu</div>')[0];
+                popup_261b49a5d3c8424a9a93ea6f5653e2f6.setContent(html_a062aa513b5c45e39672304b35bd1b35);
+            
+
+            circle_marker_f020d50987934187b369fb80f5ddec29.bindPopup(popup_261b49a5d3c8424a9a93ea6f5653e2f6);
+
+            
+        
+    
+            var circle_marker_e6eb12c4d42a4a4ebef8cd2fc37e7486 = L.circleMarker(
+                [48.577812,7.7617600000000015],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#1B283A",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#1B283A",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_30a94ac6e93246ccaf6d47afb097b5f7);
+            
+    
+            var popup_8ae42851600042f3ae021411fab23bfa = L.popup({maxWidth: '300'});
+
+            
+                var html_7d17d7d70b384bf9b01bcf475e071489 = $('<div id="html_7d17d7d70b384bf9b01bcf475e071489" style="width: 100.0%; height: 100.0%;"><center><strong>cite administrative - batiment a </strong></center><br> <b>Ministere:</b> Multi-occupation<br>             <b>Fonction:</b> Immeuble de bureaux</div>')[0];
+                popup_8ae42851600042f3ae021411fab23bfa.setContent(html_7d17d7d70b384bf9b01bcf475e071489);
+            
+
+            circle_marker_e6eb12c4d42a4a4ebef8cd2fc37e7486.bindPopup(popup_8ae42851600042f3ae021411fab23bfa);
+
+            
+        
+    
+            var circle_marker_b11af52b627642cd9468963ffa54a752 = L.circleMarker(
+                [48.577812,7.7617600000000015],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#1B283A",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#1B283A",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_30a94ac6e93246ccaf6d47afb097b5f7);
+            
+    
+            var popup_eb537553abb24797a91b3c29a3cad5ae = L.popup({maxWidth: '300'});
+
+            
+                var html_94c4da2573c1482a95de44ceeda75c7b = $('<div id="html_94c4da2573c1482a95de44ceeda75c7b" style="width: 100.0%; height: 100.0%;"><center><strong>cite administrative - batiment b </strong></center><br> <b>Ministere:</b> Multi-occupation<br>             <b>Fonction:</b> Immeuble de bureaux</div>')[0];
+                popup_eb537553abb24797a91b3c29a3cad5ae.setContent(html_94c4da2573c1482a95de44ceeda75c7b);
+            
+
+            circle_marker_b11af52b627642cd9468963ffa54a752.bindPopup(popup_eb537553abb24797a91b3c29a3cad5ae);
+
+            
+        
+</script>
